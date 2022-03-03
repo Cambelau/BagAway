@@ -15,11 +15,11 @@
       src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
       async
     ></script>
+    <form class="" action="reservation.php" method="post">
+      <button type="submit" name="button">Reserver un camion</button>
+    </form>
 
 
-
-    <button type="button" name="button">Reserver un camion</button>
-    
   </body>
 </html>
 
