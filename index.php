@@ -8,5 +8,16 @@ for ($row_no = $res->num_rows - 1; $row_no >= 0; $row_no--) {
     $row = $res->fetch_assoc();
     echo " id = " . $row['id'] . "\n";
 }
-
 ?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bagaway Alpha0.0.0</title>
+    <button type="button" name="button">Inscription</button>
+    <button type="button" name="button">Connexion</button>
+  </head>
+  <body>
+
+  </body>
+</html>
