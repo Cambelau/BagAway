@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules type="native">
+    <module>
+        <name><![CDATA[marketplace]]></name>
+        <displayName><![CDATA[Qloapps Marketplace]]></displayName>
+        <categoryName><![CDATA[Marketplace]]></categoryName>
+        <description><![CDATA[Now convert your hotel booking website into a marketplace.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/Qloapps-Marketplace.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/marketplace_logo.png]]></img>
+        <description_full><![CDATA[With the QloApps marketplace you will be able to convert your website into a marketplace of hotels and rooms. Admin can grant access to Sellers/Hoteliers to add and sell hotel rooms and earn commission for bookings made by customers through the website.]]></description_full>
+        <tab><![CDATA[market_place]]></tab>
+        <version><![CDATA[1.2.3]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[199.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/marketplace_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/m/a/marketplace-qloapps.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[wkccavenuepayment]]></name>
+        <displayName><![CDATA[QloApps CCAvenue Payment Gateway]]></displayName>
+        <categoryName><![CDATA[Payment method]]></categoryName>
+        <description><![CDATA[Using this module you can integrate and allow payment through CCAvenue payment gateway.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/CCAvenue-Payment-Gateway-for-Qloapps.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/wkccavenuepayment_logo.png]]></img>
+        <description_full><![CDATA[With CCAvenue Payment Gateway module, admin can let customer pay through the CCAvenue payment gateway. Customers can quickly pay with several payment methods such as Credit Card, Debit Card, Net Banking, IMPS transfer etc.]]></description_full>
+        <tab><![CDATA[payments_gateways]]></tab>
+        <version><![CDATA[1.0.2]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/wkccavenuepayment_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/c/c/ccavenue-payment-gateway_3.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[wkmyallocatorconnector]]></name>
+        <displayName><![CDATA[MyAllocator Connector]]></displayName>
+        <categoryName><![CDATA[Marketplace]]></categoryName>
+        <description><![CDATA[Now integrate myallocator channel manager with qloapps.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/Qloapps-Myallocator-Connector.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/wkmyallocatorconnector_logo.png]]></img>
+        <description_full><![CDATA[We bring to you the QloApps Myallocator Connector which seamlessly connects QloApps with Myallocator channel manager. Now Hoteliers can easily synchronize room inventory and rates of room types for various hotel properties.]]></description_full>
+        <tab><![CDATA[market_place]]></tab>
+        <version><![CDATA[1.2.1]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/wkmyallocatorconnector_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/m/y/myallocator.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[wkgdpr]]></name>
+        <displayName><![CDATA[GDPR Compliance | Data Protection and EU Cookie Law]]></displayName>
+        <categoryName><![CDATA[administration]]></categoryName>
+        <description><![CDATA[This module allows you to fully comply with the General Data Protection Regulation (GDPR) and EU Cookie Policy.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-GDPR-Compliance.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/wkgdpr_logo.png]]></img>
+        <description_full><![CDATA[The European Union regulations are effective from 25th May, you need to comply your hotel booking website with General Data Protection Regulation. With QloApps GDPR Compliance module, you can comply with new regulations: GDPR & European Union cookie law and ensures your customers of data protection. You can allow your customers to update or delete their personal data present on the website whenever they want.]]></description_full>
+        <tab><![CDATA[administration]]></tab>
+        <version><![CDATA[1.0.1]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[69.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/wkgdpr_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/g/d/gdpr_1_.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[wkrediscache]]></name>
+        <displayName><![CDATA[QloApps Redis Cache]]></displayName>
+        <categoryName><![CDATA[administration]]></categoryName>
+        <description><![CDATA[Use Redis as cache server to give best performance to your website.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Redis-Cache.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/wkrediscache_logo.png]]></img>
+        <description_full><![CDATA[QloApps Redis Cache is an addon for QloApps which improves the performance of your website by improving the load time of your Hotel Booking Website. It basically creates an in-memory cache to store the high-level data types and hence improving the performance of your website.]]></description_full>
+        <tab><![CDATA[administration]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/wkrediscache_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/r/e/redis.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloadminloginascustomer]]></name>
+        <displayName><![CDATA[QloApps admin login as customer]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Admin can login as customer in front office.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Admin-Login-as-Customer.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloadminloginascustomer_logo.png]]></img>
+        <description_full><![CDATA[Admin Login as Customer is a module for QloApps which allows the admin to log in into his customer's account. With the help of this module, the admin can access the entire customer account.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[29.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloadminloginascustomer_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-admin-login-as-customer.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlologincaptcha]]></name>
+        <displayName><![CDATA[QloApps Google reCAPTCHA]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Admin can display captcha at customer login, registration and contact.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Google-reCAPTCHA.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlologincaptcha_logo.png]]></img>
+        <description_full><![CDATA[If you have any kind of form on your website then you are prone to spams. So there is always a need to have a security measure on your website. The reCAPTCHA stands as a gatekeeper for the entries coming onto your website. With the help of QloApps reCAPTCHA module, you will be able to secure your QloApps website from spams and abuse.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[29.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlologincaptcha_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-google-recaptcha.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloageverification]]></name>
+        <displayName><![CDATA[QloApps Age Verification]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Verify age of user before visiting to the store.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Age-Verification.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloageverification_logo.png]]></img>
+        <description_full><![CDATA[Restricting Underage Users from your hotel website can be an important aspect of your hotel business. And that is why we need Age Verification on our hotel website. So we have developed the QloApps Age Verification add-on to restrict underage users from your website. With the help of this module Set the minimum age required for visitors to enter the website.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[29.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloageverification_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-age-verification_product_image.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlofacebookwallfeed]]></name>
+        <displayName><![CDATA[Social Wall Feed]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Show your social wall on your website.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Social-Wall-Feed.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlofacebookwallfeed_logo.png]]></img>
+        <description_full><![CDATA[QloApps Social Wall Feed is an add-on for QloApps which will allow you to show your Facebook wall feeds on your hotel booking website to increase your website's efficiency.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[29.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlofacebookwallfeed_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-facebook-wall-feed_1_.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlowhatsapp]]></name>
+        <displayName><![CDATA[WhatsApp Support and Share]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Provide instant support by whatsapp, customer can share on whatsapp.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-WhatsApp-Support-and-Share.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlowhatsapp_logo.png]]></img>
+        <description_full><![CDATA[QloApps WhatsApp Support and Share is an add-on for QloApps. It will help you to support your website visitors, guests and customer via WhatsApp. And your users will be able to share their experience with your website via WhatsApp.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[29.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlowhatsapp_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-facebook-wall-feed_1_.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlofbmessenger]]></name>
+        <displayName><![CDATA[QloApps Social Live Chat]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Boost customer relations with live chat.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Social-Live-Chat.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlofbmessenger_logo.png]]></img>
+        <description_full><![CDATA[QloApps WhatsApp Support and Share is an add-on for QloApps. It will help you to support your website visitors, guests and customer via WhatsApp. And your users will be able to share their experience with your website via WhatsApp.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[29.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlofbmessenger_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-live-social-chat.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlogifimageupload]]></name>
+        <displayName><![CDATA[QloApps GIF Image Upload]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Upload and display GIF images for product and shop logo.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-GIF-Image-Upload.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlogifimageupload_logo.png]]></img>
+        <description_full><![CDATA[QloApps GIF image upload is an add-on that will bring the functionality of using GIFs as logo image and room type images on your QloApps hotel booking website. This will not only make your hotel booking website look elegant but also increase its effectiveness.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[39.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlogifimageupload_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-gif-image-upload.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlosociallogin]]></name>
+        <displayName><![CDATA[QloApps Social Login]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Customer can sign-in or sign-up by social media.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Social-Login.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlosociallogin_logo.png]]></img>
+        <description_full><![CDATA[Social Login is an addon for QloApps. This will allow your users to log in to your website via Facebook and Google accounts. QloApps Social Login will save your customers from following the whole registration process. And as most of our users are already registered on Facebook or Google so logging into your website will be just a single click away.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.1]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[35.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlosociallogin_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-social-login_1_.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloroomtypevideo]]></name>
+        <displayName><![CDATA[QloApps Room Type Video]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Now add room video along with your room description]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Room-Type-Video.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloroomtypevideo_logo.png]]></img>
+        <description_full><![CDATA[QloApps Room Type Videos is an add-on for QloApps which will allow you to upload videos for your room types. With the help of this module, you will be able to show videos on room type page with the help of Youtube embed URLs.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[25.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloroomtypevideo_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-room-type-video.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloblog]]></name>
+        <displayName><![CDATA[QloApps Advanced Blog System]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Write and manage blog for your e-commerce site]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Advanced-Blog-System.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloblog_logo.png]]></img>
+        <description_full><![CDATA[QloApps Advance Blog is an addon for QloApps which will allow you to publish blogs on your website. Publish content on your website will lead to better customer engagement. It will also help your website to rank better in SERPs.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloblog_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-blogstore.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlomessaging]]></name>
+        <displayName><![CDATA[QloApps SMS Notification]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Provide Messaging for QloApps customer.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-SMS-Notification.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlomessaging_logo.png]]></img>
+        <description_full><![CDATA[QloApps SMS Notification is an add-on for QloApps which will allow you to send SMS to your guests. By default, there are six SMS service providers (Plivo, Twilio, ClickSend, TextLocal, SendinBlue, and Onehop) available in this module.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlomessaging_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-sms-notification-store.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlofacebookstore]]></name>
+        <displayName><![CDATA[QloApps Bookings via Facebook Fan Page]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Display your hotel on facebook and get bookings.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Bookings-via-Facebook-Fan-Page.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlofacebookstore_logo.png]]></img>
+        <description_full><![CDATA[With the help of QloApps Bookings via Facebook Fan Page you can seamlessly connect your hotel booking website to Facebook. The addon will show your whole frontpage on your Facebook fan page. Hence generating more opportunities for you to score bookings.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlofacebookstore_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-facebook-shop-store.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlospinandwin]]></name>
+        <displayName><![CDATA[Spin and Win]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[This module generate voucher for the customer using spin the wheel. It enables customer to generate voucher in smart way. It helps you to increase customer on your shop and growth of selling.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Spin-and-Win.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlospinandwin_logo.png]]></img>
+        <description_full><![CDATA[QloApps Spin and Win is an addon that will add Spin the Wheel Game on your website. This game will allure your customers to your website. In their quest of winning a price, the users will put in more time on the hotel booking website. Hence, increasing your dwell time which is one of the elixirs you need to rank on a search engine.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlospinandwin_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-spin-and-win-store.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlowebp]]></name>
+        <displayName><![CDATA[Google WebP Image Module]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Upload and display webP images for product and shop logo.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Google-WebP-Image-Module.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlowebp_logo.png]]></img>
+        <description_full><![CDATA[QloApps WebP Image Converter is an add-on for QloApps which will convert your website images to WebP for faster websites. The JPG and PNG images are heavy and take time to load. WebP images are lesser in size with the same quality hence, improving the site speed without compromising the user experience.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlowebp_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-webp-image-generator-store.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlowordpresspost]]></name>
+        <displayName><![CDATA[QloApps WordPress Blog]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[This module allow to display blogs in your hotel website from your wordpress blog system.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-WordPress-Blog.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlowordpresspost_logo.png]]></img>
+        <description_full><![CDATA[QloApps WebP Image Converter is an add-on for QloApps which will convert your website images to WebP for faster websites. The JPG and PNG images are heavy and take time to load. WebP images are lesser in size with the same quality hence, improving the site speed without compromising the user experience.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlowordpresspost_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-wordpress-blog.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlopwa]]></name>
+        <displayName><![CDATA[QloApps Advanced Progressive Web App]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Using this addon you can send push notification, run your website offline and increase your website performance.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Advanced-Progressive-Web-App.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlopwa_logo.png]]></img>
+        <description_full><![CDATA[QloApps Progressive Web App is an add-on for QloApps that will bring two functionalities to your website. The first one is the web app and the other is push notifications.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[149.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlopwa_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-progressive-web-app.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlogeolocation]]></name>
+        <displayName><![CDATA[QloApps Geolocation | auto set currency and language]]></displayName>
+        <categoryName><![CDATA[analytics_stats]]></categoryName>
+        <description><![CDATA[Auto changes language and currency by geolocation.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Geolocation.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlogeolocation_logo.png]]></img>
+        <description_full><![CDATA[QloApps Geolocation is an addon for QloApps which detects the location of the user and sets the location and currency of the website accordingly. It also fills the city & zip code column in the customer’s address form automatically based on the user’s location.]]></description_full>
+        <tab><![CDATA[analytics_stats]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlogeolocation_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-language-and-currency-chnage.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlo360view]]></name>
+        <displayName><![CDATA[QloApps Room type 360 degree view]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Admin can set 360 view of room type]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Room-Type-360-Degree-View.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlo360view_logo.png]]></img>
+        <description_full><![CDATA[This QloApps addon will allow you to showcase your rooms via 360°images. This will give the guests a better idea of rooms to your guests hence increasing your chances of getting a booking.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlo360view_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-360-spin.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloslider]]></name>
+        <displayName><![CDATA[QloApps Slider]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[This module helps you to create and display different types of hotel, room type and image sliders at different pages and places.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Slider.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloslider_logo.png]]></img>
+        <description_full><![CDATA[QloApps Sliders is an addon for QloApps which will show different types of sliders on your hotel booking website. With the help of QloApps Sliders, you will be able to show the rooms, hotel, and images on different pages which will give you cross-sale opportunities, boost your SEO and improve UI.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloslider_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-slider.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloamp]]></name>
+        <displayName><![CDATA[QloApps AMP(Accelerated Mobile Pages)]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Provide AMP pages for Home Page, Search result, Room type, checkout and CMS pages.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-AMP-Accelerated-Mobile-Pages.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloamp_logo.png]]></img>
+        <description_full><![CDATA[QloApps AMP is an addon for QloApps while allow you to create AMP pages of your hotel booking website. It ill makes your hotel website load faster on mobile devices to better customer experience with the help of Accelerated Mobile Pages (AMP). You can make AMP pages of the home page, search result page, room type page, cms pages, and checkout page.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[59.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloamp_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-amp.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[mpondeskbooking]]></name>
+        <displayName><![CDATA[Marketplace seller on desk booking]]></displayName>
+        <categoryName><![CDATA[Marketplace]]></categoryName>
+        <description><![CDATA[Now seller will be able to create on desk bookings for customers.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Marketplace-On-Desk-Booking.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/mpondeskbooking_logo.png]]></img>
+        <description_full><![CDATA[QloApps Marketplace On-Desk Booking is an addon for QloApps Marketplace.This addon will allow your marketplace sellers to take on-desk bookings.So whenever a customer walks into a seller’s hotel the seller will take his booking with the help of this addon in order to keep the record of this booking into the system.]]></description_full>
+        <tab><![CDATA[market_place]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/mpondeskbooking_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-mp-seller-on-desk-booking.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlostripepayment]]></name>
+        <displayName><![CDATA[Stripe Payment Gateway]]></displayName>
+        <categoryName><![CDATA[payments_gateways]]></categoryName>
+        <description><![CDATA[Accept payments using Stripe payment gateway. Manage stripe transactions refunds.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Stripe-Payment.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlostripepayment_logo.png]]></img>
+        <description_full><![CDATA[QloApps Stripe Payment Gateway is an addon for QloApps which will allow you to accept online payments through Stripe Payment Gateway. Stripe payment gateway module allows you to accept credit cards directly on your site through your Stripe.com account.]]></description_full>
+        <tab><![CDATA[payments_gateways]]></tab>
+        <version><![CDATA[1.0.1]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[75.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlostripepayment_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-stripe-payment-gateway.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlogooglecalendarsync]]></name>
+        <displayName><![CDATA[Sync QloApps bookings to Google Calendar.]]></displayName>
+        <categoryName><![CDATA[administration]]></categoryName>
+        <description><![CDATA[This modules sync QloApps room bookings to the google calendar. Create calendar for every room and create events for bookings.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Google-Calendar-Sync.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlogooglecalendarsync_logo.png]]></img>
+        <description_full><![CDATA[We gladly bring you the QloApps Google calendar Sync add-on. This addon will connect your hotel booking website to Google Calendar. With the help of this addon you will be able to create seperate calendars on Google Calendar for your rooms and room types. This addon will also create events on both admin and customer's calendar for all the bookings made.]]></description_full>
+        <tab><![CDATA[administration]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlogooglecalendarsync_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-google-calendar-booking.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlopayathotel]]></name>
+        <displayName><![CDATA[QloApps Pay at Hotel]]></displayName>
+        <categoryName><![CDATA[payments_gateways]]></categoryName>
+        <description><![CDATA[This module allows customers to create bookings without paying while checkout but pay for booking after visiting hotel.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Pay-at-Hotel.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlopayathotel_logo.png]]></img>
+        <description_full><![CDATA[QloApps Pay At Hotel is an add-on that will bring the functionality of making payments at the hotel itself while check-in. This module adds a payment option for customers to book hotel rooms without entering card details or making online payments and gives an option for paying at the hotel during check-in.]]></description_full>
+        <tab><![CDATA[payments_gateways]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlopayathotel_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-pay-at-hotel.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloamazons3]]></name>
+        <displayName><![CDATA[QloApps Amazon s3]]></displayName>
+        <categoryName><![CDATA[administration]]></categoryName>
+        <description><![CDATA[Amazon Simple Storage Service.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Amazon-S3.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloamazons3_logo.png]]></img>
+        <description_full><![CDATA[QloApps Amazon S3 connects your QloApps website to Amazon S3 storage. So you will be able to upload your images to the cloud and reduce the load from your server. The reduction in load from the server will make your website run smooth hence improving the website performance and user experience.]]></description_full>
+        <tab><![CDATA[administration]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloamazons3_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-amazon-s3.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlocustomregistrationfield]]></name>
+        <displayName><![CDATA[QloApps Custom Registration Fields]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Add and manage additional information in registration form.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Custom-Registration-Fields.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlocustomregistrationfield_logo.png]]></img>
+        <description_full><![CDATA[QloApps Custom Regiteration Field is an add-on which will help you to gather tailored information from your customer. You can add fields in the Customer Registration Form and gather all the information as per your needs.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlocustomregistrationfield_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-custom-registration-field.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloregistrationotp]]></name>
+        <displayName><![CDATA[QloApps Mobile and Email Verification]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Registration with OTP verification or email verification.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Mobile-and-Email-Verification.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloregistrationotp_logo.png]]></img>
+        <description_full><![CDATA[QloApps Mobile and Email Verification is an add-on for verifying the phone numbers and emails of customers.Protecting your company and users from spams is important to ensure the growth of your business.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloregistrationotp_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-customer-email-mobile-verification.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlomangopaypayment]]></name>
+        <displayName><![CDATA[QloApps Mangopay Payment]]></displayName>
+        <categoryName><![CDATA[payments_gateways]]></categoryName>
+        <description><![CDATA[Allows customers to use Mangopay for payments.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Mangopay-Payment.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlomangopaypayment_logo.png]]></img>
+        <description_full><![CDATA[QloApps Mangopay Payment gateway is an add-on that enables clients to pay for hotel bookings through the Mangopay payment gateway on your website.]]></description_full>
+        <tab><![CDATA[payments_gateways]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[79.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlomangopaypayment_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-mangopay-payment.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[wktourpackages]]></name>
+        <displayName><![CDATA[QloApps Tour And Packages]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Using this module, Manage tours and packages. You can create holiday packages including stay or without stay.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Tours-and-Packages.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/wktourpackages_logo.png]]></img>
+        <description_full><![CDATA[QloApps Tours and Packages is an add-on that will allow the admin to sell tour packages from his hotel website. Admin will be able to create packages, add activities, events and transportation then sell the whole package to the end user. This QloApps addon will create new opportunities for the hotelier to increase the revenue by selling tours along with hotels.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[99.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/wktourpackages_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-tours-nd-packages.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlomultisocialpost]]></name>
+        <displayName><![CDATA[QloApps Multisocial Posts]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Create and schedule advertisement posts on multiple social networks from one place.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Multisocial-Posts.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlomultisocialpost_logo.png]]></img>
+        <description_full><![CDATA[The configuration page allows users to configure the settings to allow posts to publish on social media platforms. Thus, increasing the visibility of users in various social media websites like Facebook, Twitter, Pinterest, and Tumblr it is important to mark their presence across all social media platforms.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[75.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlomultisocialpost_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-multisocial-post.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qloproductqna]]></name>
+        <displayName><![CDATA[QloApps Products Questions And Answers]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Allows customers to know a product better through questions and answers.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Product-Question-and-Answer.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qloproductqna_logo.png]]></img>
+        <description_full><![CDATA[QloApps Room Type Question and Answer is an add-on to voice questions and give their responses. It is an effective section where the admin and customer both can post questions and answers. The customers or the guests also have the option to ask their queries or answer one. If the guest wants to post questions or answers then they have to enter their name and email ID. Admin can also set the sequence of the query posts.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[79.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qloproductqna_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-product-question-nd-answer.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlofrontpageslideshow]]></name>
+        <displayName><![CDATA[QloApps Front Page Slideshow]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Displays an image slideshow on homepage.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Frontpage-Slideshow.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlofrontpageslideshow_logo.png]]></img>
+        <description_full><![CDATA[QloApps Frontpage slideshow is an add-on which will create an image slider on your homepage. You can customize the slider by enabling or disabling captions, navigation, slide numbers, add intervals between sliders, etc. Further you can upload unlimited images in the slider.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[25.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlofrontpageslideshow_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qloapps-frontpage-slideshow.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlocartreminder]]></name>
+        <displayName><![CDATA[QloApps Abandoned Cart Reminder]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Send reminders to customers informing about their abandoned carts.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Abandoned-Cart-Reminder.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlocartreminder_logo.png]]></img>
+        <description_full><![CDATA[QloApps Abandoned Cart Reminder is an add-on which allows the admin to send email to customers if he left the site without booking. When a customer leaves the site after adding room type in the cart then email/ emails will be sent to the customer to remind them to complete their booking. Cart reminder emails motivate customers to complete their bookings by sending reminders. You can easily customize the mail and set the hours you want to send email regarding abandoned carts to customers.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlocartreminder_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-abandoned-cart-reminder.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlomobilelogin]]></name>
+        <displayName><![CDATA[QloApps Mobile Login]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Registration & Login with Mobile Number and OTP/Password]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Mobile-Login.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlomobilelogin_logo.png]]></img>
+        <description_full><![CDATA[The admin can allow customers to register and log into the website using their mobile number with the help of QloApps Mobile login. By this module customers can easily reset their password by requesting an OTP on their mobile number, If their password is lost. And also email can be set as an optional field on the registration page so that customers can register without . By default QloApps mobile login supports three SMS gateway providers - Twilio, SendinBlue, and onehop (SMS-Magic).]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlomobilelogin_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-mobile-login.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlomultibankwire]]></name>
+        <displayName><![CDATA[QloApps Multi Bank Wire Payments]]></displayName>
+        <categoryName><![CDATA[payments_gateways]]></categoryName>
+        <description><![CDATA[Allows customers to choose from multiple banks for bankwire payments.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Multi-Bank-Wire.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlomultibankwire_logo.png]]></img>
+        <description_full><![CDATA[QloApps Multi Bank Wire will allow the admin of the hotel booking website to accept payments through multiple bank wire accounts.Default QloApps will show just a single bank wire account details but with this addon, you can show multiple bank wire account details. Hence giving the customer multiple options to make the payment.]]></description_full>
+        <tab><![CDATA[payments_gateways]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlomultibankwire_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-multi-bank-wire.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlocallback]]></name>
+        <displayName><![CDATA[QloApps Call Back Requests]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Allows customers to request a call back from admin.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Callback-Request.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlocallback_logo.png]]></img>
+        <description_full><![CDATA[QloApps callback request is an add-on which integrates a callback request icon on the frontend. After clicking on it, a form will open where the customer has to fill in their name, contact number, date and time of call request. Admin can get updates through email as soon as a callback request is sent by the customer. Customers have numerous queries and they want to tackle them. And this add-on supports them in finding solutions to all of their queries on call. Ultimately, it enhances a customer’s experience.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[25.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlocallback_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-callback-request.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlofrontdesk]]></name>
+        <displayName><![CDATA[QloApps Front Desk]]></displayName>
+        <categoryName><![CDATA[administration]]></categoryName>
+        <description><![CDATA[QloApps Front Desk]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Front-Desk-System.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlofrontdesk_logo.png]]></img>
+        <description_full><![CDATA[QloApps Front Desk System is a revolutionary add-on for the hoteliers. The addon adds a calendar on your QloApps dashboard which shows all the information in a very easy to understand manner. Hotelier can view, add, edit bookings on your QloApps dashboard calendar. Features like drag and drop bookings to change the date will make your hotel business run at your fingertips.]]></description_full>
+        <tab><![CDATA[administration]]></tab>
+        <version><![CDATA[1.0.1]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[125.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlofrontdesk_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-front-desk-booking.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlopropertyvirtualtour]]></name>
+        <displayName><![CDATA[QloApps Hotel Virtual Tour]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Using this module you can create 360 virtual tours of your hotels for your guests.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Hotel-Virtual-Tour.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlopropertyvirtualtour_logo.png]]></img>
+        <description_full><![CDATA[QloApps Hotel Virtual Tour is a useful tool that will allow traveler to interact with your property virtually. With the help of this addon the admin can create multiple virtual tours for all his hotels and display them on the front. With this addon the admin can enjoy the endless benefits of virtual reality and take his part in the future of hotel technology.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[125.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlopropertyvirtualtour_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-property-virtual-tour.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlorazorpaypayment]]></name>
+        <displayName><![CDATA[QloApps Razorpay Payment]]></displayName>
+        <categoryName><![CDATA[payments_gateways]]></categoryName>
+        <description><![CDATA[Using this module, accept payments with Razorpay payment gateway from your customers with Card/Netbanking/Wallet.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Razorpay-Payment.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlorazorpaypayment_logo.png]]></img>
+        <description_full><![CDATA[QloApps Razorpay Payment Gateway is an add-on which allows you to accept online payments through Razorpay Payment Gateway. It accepts all major debit and credit cards, UPI, net banking banks and few wallets. Further, you can set up Webhook from your Dashboard so that when a refund event is triggered you get notification about its status update. Thus, you can fast forward your business and increase conversions.]]></description_full>
+        <tab><![CDATA[payments_gateways]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[49.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlorazorpaypayment_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-razorpay-payment.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[qlogoogleaddress]]></name>
+        <displayName><![CDATA[QloApps Auto-fill Address Form | Google Addresses]]></displayName>
+        <categoryName><![CDATA[front_office_features]]></categoryName>
+        <description><![CDATA[Autompletes address forms using Google services.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Auto-fill-Address-Form.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/qlogoogleaddress_logo.png]]></img>
+        <description_full><![CDATA[QloApps Razorpay Payment Gateway is an add-on which allows you to accept online payments through Razorpay Payment Gateway. It accepts all major debit and credit cards, UPI, net banking banks and few wallets. Further, you can set up Webhook from your Dashboard so that when a refund event is triggered you get notification about its status update. Thus, you can fast forward your business and increase conversions.]]></description_full>
+        <tab><![CDATA[front_office_features]]></tab>
+        <version><![CDATA[1.0.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[25.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/qlogoogleaddress_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/q/l/qlo-auto-fill.png]]></big>
+        </cover>
+    </module>
+    <module>
+        <name><![CDATA[mpmyallocatorconnector]]></name>
+        <displayName><![CDATA[Marketplace MyAllocator Connector]]></displayName>
+        <categoryName><![CDATA[administration]]></categoryName>
+        <description><![CDATA[Now sellers can integrate their myallocator channel manager with qloapps.]]></description>
+        <author><![CDATA[Webkul]]></author>
+        <url><![CDATA[https://store.webkul.com/QloApps-Marketplace-Myallocator-Connector.html]]></url>
+        <img><![CDATA[http://api.qloapps.com/modules/module_img/mpmyallocatorconnector_logo.png]]></img>
+        <description_full><![CDATA[QloApps Marketplace Myallocator Connector is an add-on for QloApps Marketplace. It will connect the QloApps Marketplace to Myallocator Channel Manager and allow the sellers to sync their rates and inventories between QloApps Marketplace and Myallocator.]]></description_full>
+        <tab><![CDATA[administration]]></tab>
+        <version><![CDATA[1.2.0]]></version>
+        <compatibility>
+            <from><![CDATA[1.6.0.0]]></from><to><![CDATA[1.6.1.24]]></to>
+        </compatibility>
+        <price>
+            <USD><![CDATA[199.00]]></USD>
+        </price>
+        <cover>
+            <small><![CDATA[http://api.qloapps.com/modules/module_img/mpmyallocatorconnector_logo.png]]></small>
+            <big><![CDATA[https://store.webkul.com/media/catalog/product/cache/1/image/260x260/9df78eab33525d08d6e5fb8d27136e95/9/7/97519.png]]></big>
+        </cover>
+    </module>
+</modules>

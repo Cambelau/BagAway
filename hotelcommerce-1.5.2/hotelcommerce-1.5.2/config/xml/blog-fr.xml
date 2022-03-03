@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/fr/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/fr/blog/feed.xml</link>
+    <description></description>
+    <language>fr</language>
+     <atom:link href="https://www.prestashop.com/fr/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>CMS PrestaShop : guide d’installation manuelle de votre boutique ecommerce</title>
+    <link>https://www.prestashop.com/fr/comment-installer-prestashop</link>
+    <description>Vous souhaitez installer PrestaShop pour lancer votre boutique en ligne ?</description>
+     <pubDate>Mon, 28 Feb 2022 11:24:05 +0100</pubDate>
+ <dc:creator>YATEO</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/comment-installer-prestashop</guid>
+  </item>
+  <item>
+    <title>Rassurer et engager, les 2 mots d’ordre pour 2022</title>
+    <link>https://www.prestashop.com/fr/blog/rassurer-engager-ecommerce</link>
+    <description>Deux rapports majeurs viennent d’être publiés.</description>
+     <pubDate>Thu, 24 Feb 2022 17:42:20 +0100</pubDate>
+ <dc:creator>L&#039;équipe PrestaShop</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/rassurer-engager-ecommerce</guid>
+  </item>
+  <item>
+    <title>Quel est le prix d&amp;#039;une boutique PrestaShop ?</title>
+    <link>https://www.prestashop.com/fr/blog/prix-boutique-prestashop</link>
+    <description>Vous souhaitez créer un site avec PrestaShop ? Excellent choix !</description>
+     <pubDate>Wed, 23 Feb 2022 17:44:32 +0100</pubDate>
+ <dc:creator>L&#039;agence123</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/prix-boutique-prestashop</guid>
+  </item>
+  <item>
+    <title>Comment répondre aux attentes de vos clients ?</title>
+    <link>https://www.prestashop.com/fr/blog/satisfaire-clients-livraison-efn</link>
+    <description>Il faut quelque chose de vraiment spécial pour impressionner les clients du e-commerce d&#039;aujourd&#039;hui.</description>
+     <pubDate>Mon, 21 Feb 2022 11:40:11 +0100</pubDate>
+ <dc:creator>Andreas Bicking</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/satisfaire-clients-livraison-efn</guid>
+  </item>
+  <item>
+    <title>Comment devenir un expert e-commerce ? Discussion avec le responsable des formations PrestaShop</title>
+    <link>https://www.prestashop.com/fr/blog/formations-prestashop</link>
+    <description>Près de 300 000 boutiques en ligne sont aujourd’hui des boutiques PrestaShop.</description>
+     <pubDate>Wed, 16 Feb 2022 14:20:36 +0100</pubDate>
+ <dc:creator>L&#039;équipe PrestaShop</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/formations-prestashop</guid>
+  </item>
+  <item>
+    <title>Quelle est l’importance du persona dans sa stratégie marketing ? </title>
+    <link>https://www.prestashop.com/fr/blog/buyer-persona-marketing</link>
+    <description>La création de buyer persona dans sa stratégie marketing est une étape essentielle au bon déroulement de vos campagnes d&#039;inbound marketing.</description>
+     <pubDate>Mon, 14 Feb 2022 10:15:02 +0100</pubDate>
+ <dc:creator>Melissa Antoine</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/buyer-persona-marketing</guid>
+  </item>
+  <item>
+    <title>Les étapes légales à ne pas manquer pour créer un site e-commerce</title>
+    <link>https://www.prestashop.com/fr/blog/legal-juridique-e-commerce</link>
+    <description>La vente en ligne connaît une forte croissance et pour y faire face, ses règles sont en constante évolution.</description>
+     <pubDate>Thu, 10 Feb 2022 18:38:25 +0100</pubDate>
+ <dc:creator>guillaumerobez</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/legal-juridique-e-commerce</guid>
+  </item>
+  <item>
+    <title>Live Shopping : la prochaine (r)évolution du e-commerce?</title>
+    <link>https://www.prestashop.com/fr/blog/decouvrir-live-shopping</link>
+    <description>L’achat direct ne date pas d’aujourd’hui. La formule télévisée, ou télé-achat a envahi nos écrans dans les années 80-90, proposant des démonstrations de produits en direct.</description>
+     <pubDate>Tue, 08 Feb 2022 17:17:50 +0100</pubDate>
+ <dc:creator>L&#039;équipe PrestaShop</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/decouvrir-live-shopping</guid>
+  </item>
+  <item>
+    <title>Pages d’erreur 404 : comment détecter et gérer les pages introuvables sur votre site internet ?</title>
+    <link>https://www.prestashop.com/fr/blog/erreurs-http-404-not-found-comment-resoudre</link>
+    <description>Les pages introuvables de type 404 Not Found sur un site, ça vous parle ?</description>
+     <pubDate>Thu, 03 Feb 2022 17:38:28 +0100</pubDate>
+ <dc:creator>YATEO</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/erreurs-http-404-not-found-comment-resoudre</guid>
+  </item>
+  <item>
+    <title>Sept astuces pour gérer les avis clients négatifs</title>
+    <link>https://www.prestashop.com/fr/blog/avis-clients-negatifs</link>
+    <description>Aujourd’hui, tous les entrepreneurs ont besoin des avis clients pour prospérer. Il existe néanmoins un problème : tous les avis ne sont pas systématiquement positifs !</description>
+     <pubDate>Tue, 01 Feb 2022 09:36:31 +0100</pubDate>
+ <dc:creator>YATEO</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/avis-clients-negatifs</guid>
+  </item>
+  </channel>
+</rss>
