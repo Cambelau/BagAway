@@ -1,5 +1,5 @@
 <?php
-include "con.php";
+include "conn.php";
 echo "hello bagaway";
 $res = $conn->query("SELECT id FROM user ORDER BY id ASC");
 
@@ -16,6 +16,13 @@ for ($row_no = $res->num_rows - 1; $row_no >= 0; $row_no--) {
     <title>Bagaway Alpha0.0.0</title>
     <button type="button" name="button">Inscription</button>
     <button type="button" name="button">Connexion</button>
+
+    <form class="" action="index.html" method="post">
+      <input type="text" name="" value="">
+      <input type="text" name="" value="">
+       <button type="submit" name="button">S'inscrire</button>
+    </form>
+
   </head>
   <body>
 
