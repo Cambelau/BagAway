@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Reservation du camion</h1>
-    <form class="" action="index.html" method="post">
+    <form class="" action="index.php" method="post">
         <label for="nombre de bagage">Affaire</label>
         <select class="" name="nombre de bagage">
           <option value="">1</option>

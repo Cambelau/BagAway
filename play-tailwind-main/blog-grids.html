@@ -37,7 +37,7 @@
       <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
           <div class="px-4 w-60 max-w-full">
-            <a href="index.html" class="navbar-logo w-full block py-5">
+            <a href="index.php" class="navbar-logo w-full block py-5">
               <img
                 src="assets/images/logo/logo-white.svg"
                 alt="logo"
@@ -252,7 +252,7 @@
                       "
                     >
                       <a
-                        href="about.html"
+                        href="about.php"
                         class="
                           block
                           text-sm text-body-color
@@ -265,7 +265,7 @@
                         About Page
                       </a>
                       <a
-                        href="pricing.html"
+                        href="pricing.php"
                         class="
                           block
                           text-sm text-body-color
@@ -278,7 +278,7 @@
                         Pricing Page
                       </a>
                       <a
-                        href="contact.html"
+                        href="contact.php"
                         class="
                           block
                           text-sm text-body-color
@@ -343,7 +343,7 @@
                         Sign In Page
                       </a>
                       <a
-                        href="404.html"
+                        href="404.php"
                         class="
                           block
                           text-sm text-body-color
