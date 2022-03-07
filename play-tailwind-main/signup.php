@@ -164,7 +164,7 @@ header("Location: /dashboard.php");
                   <img src="assets/images/logo/logo.svg" alt="logo" />
                 </a>
               </div>
-              <form action="signup.php" method="post">
+              <form action="main.php" method="post">
                 <div class="mb-6">
                   <input
                     type="text"
