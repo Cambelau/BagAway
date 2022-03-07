@@ -11,7 +11,7 @@ try
 $res = $conn->query("SELECT password FROM user WHERE email = '$email'");
 $passwordtocheck = $res->fetch_array()[0];
 if($passwordtocheck==$password)
-   header("Location: /dashboard.php");
+   header("Location: /main.php");
 
 }catch(Exception $e)
 {

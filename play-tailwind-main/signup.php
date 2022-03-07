@@ -11,7 +11,7 @@ $requete = "INSERT INTO `user` (`id`, `name`, `phone`,`email`, `password`) VALUE
 try
 {
 $conn->query($requete);
-header("Location: /dashboard.php");
+header("Location: /main.php");
 }catch(Exception $e)
 {
   echo "string";
