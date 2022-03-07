@@ -24,7 +24,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Play | Free Tailwind CSS Template for Startup and SaaS By TailGrids
+      BagAway - Main Page
     </title>
     <link
       rel="shortcut icon"
@@ -33,7 +33,7 @@
     />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/tailwind.css" />
-
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
     <!-- ==== WOW JS ==== -->
     <script src="assets/js/wow.min.js"></script>
     <script>
@@ -478,6 +478,7 @@
     <form class="" action="reservation.php" method="post">
       <button type="submit" name="button">Reserver un camion</button>
     </form>
+    <i class="lni lni-car-alt"></i>
             </div>
           </div>
         </div>
