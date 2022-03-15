@@ -161,7 +161,7 @@ header("Location: /main.php");
                   href="javascript:void(0)"
                   class="inline-block max-w-[160px] mx-auto"
                 >
-                  <img src="assets/images/logo/logo.svg" alt="logo" />
+                  <img src="assets/images/logo/logo.png" alt="logo" />
                 </a>
               </div>
               <form action="main.php" method="post">
@@ -626,7 +626,7 @@ header("Location: /main.php");
                 class="inline-block max-w-[160px] mb-6"
               >
                 <img
-                  src="assets/images/logo/logo-white.svg"
+                  src="assets/images/logo/logo-white.png"
                   alt="logo"
                   class="max-w-full"
                 />

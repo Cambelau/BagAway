@@ -60,7 +60,7 @@
           <div class="px-4 w-60 max-w-full">
             <a href="index.php" class="navbar-logo w-full block py-5">
               <img
-                src="assets/images/logo/logo-white.svg"
+                src="assets/images/logo/logo-white.png"
                 alt="logo"
                 class="w-full header-logo"
               />
@@ -501,7 +501,7 @@
                 class="inline-block max-w-[160px] mb-6"
               >
                 <img
-                  src="assets/images/logo/logo-white.svg"
+                  src="assets/images/logo/logo-white.png"
                   alt="logo"
                   class="max-w-full"
                 />
