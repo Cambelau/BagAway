@@ -485,6 +485,10 @@
       </div>
     </div>
     </div>
+    <!-- ====== ZAK pas touche -->
+    <div> ------QR code test -------
+    <?php //include "test-qrcode.php" ?>
+    </div>
 
 
     <!-- ====== Footer Section Start -->
