@@ -2,7 +2,7 @@
 <div
   class="
     ud-header
-    bg-transparent
+    bg-blue
     absolute
     top-0
     left-0
@@ -12,7 +12,7 @@
     items-center
   "
 >
-  <div class="container">
+  <div class="container" >
     <div class="flex -mx-4 items-center justify-between relative">
       <div class="px-4 w-60 max-w-full">
         <a href="index.php" class="navbar-logo w-full block py-5">
@@ -26,7 +26,7 @@
       <div class="flex px-4 justify-between items-center w-full">
         <div>
           <button
-            id="navbarToggler"
+            id="navbarToggler" 
             class="
               block
               absolute
@@ -89,7 +89,7 @@
                     lg:mr-0
                   "
                 >
-                  Maison
+                  Home
                 </a>
               </li>
               <li class="relative group">
@@ -266,7 +266,7 @@
                       px-4
                     "
                   >
-                    Contact Page
+                    Contact Page  
                   </a>
                   <a
                     href="blog-grids.html"

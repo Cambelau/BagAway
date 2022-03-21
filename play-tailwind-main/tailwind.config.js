@@ -24,13 +24,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        black: "#212b36",
-        dark: "#090E34",
-        "dark-700": "#090e34b3",
-        primary: "#3056D3",
-        secondary: "#13C296",
-        "body-color": "#637381",
-        warning: "#FBBF24",
+        black: "#FF33CC",
+        dark: "#FF33CC",
+        "FF33CC": "#FF33CC",
+        primary: "#FF33CC",
+        secondary: "#FF33CC",
+        "body-color": "#FF33CC",
+        warning: "#FF33CC",
       },
       boxShadow: {
         input: "0px 7px 20px rgba(0, 0, 0, 0.03)",
