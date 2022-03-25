@@ -58,7 +58,7 @@
                   mb-8
                 "
               >
-                Open-Source Web Template for SaaS, Startup, Apps, and More
+                Projet PPE - BagAway
               </h1>
               <p
                 class="
@@ -71,8 +71,7 @@
                   max-w-[600px]
                 "
               >
-                Multidisciplinary Web Template Built with Your Favourite
-                Technology - HTML Bootstrap, Tailwind and React NextJS.
+                Application de bagagerie mobile. Besoin de vous libérer d'affaires encombrantes ? Réservez votre casier rapidemment !
               </p>
               <ul class="flex flex-wrap items-center justify-center mb-10">
                 <li>
@@ -95,7 +94,7 @@
                       ease-in-out
                     "
                   >
-                    Download Now
+                    Réserver
                   </a>
                 </li>
                 <li>
@@ -117,7 +116,7 @@
                       ease-in-out
                     "
                   >
-                    Star on Github
+                    Plus d'informations
                     <span class="pl-2">
                       <svg
                         width="20"
@@ -135,7 +134,7 @@
               </ul>
               <div class="text-center wow fadeInUp" data-wow-delay=".3s">
                 <img
-                  src="assets/images/hero/brand.svg"
+                  src="assets/images/hero/brand.png"
                   alt="image"
                   class="
                     max-w-[250px]
@@ -1318,7 +1317,7 @@
           <div class="w-full px-4">
             <div class="mb-12 lg:mb-20 max-w-[620px]">
               <span class="font-semibold text-lg text-primary mb-2 block">
-                Features
+                Fonctionnalités
               </span>
               <h2
                 class="
@@ -1330,7 +1329,7 @@
                   mb-4
                 "
               >
-                Main Features Of Play
+              Leave your bag away with BagAway !
               </h2>
               <p
                 class="
@@ -1341,8 +1340,8 @@
                   text-body-color
                 "
               >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                BagAway est une plateforme de bagagerie mobile qui apporte flexibilité et mobilité pour l’utilisateur.
+                Grâce à notre solution, nous améliorons le confort et l’expérience touristique.
               </p>
             </div>
           </div>
@@ -1397,10 +1396,10 @@
                 </svg>
               </div>
               <h4 class="font-bold text-xl text-dark mb-3">
-                Free and Open-Source
+                Économique
               </h4>
               <p class="text-body-color mb-8 lg:mb-11">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Economisez pendant vos déplacements.
               </p>
               <a
                 href="javascript:void(0)"
@@ -1462,10 +1461,10 @@
                 </svg>
               </div>
               <h4 class="font-bold text-xl text-dark mb-3">
-                Multipurpose Template
+                Flexible
               </h4>
               <p class="text-body-color mb-8 lg:mb-11">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Simplifiez vos voyages et votre vie touristique.
               </p>
               <a
                 href="javascript:void(0)"
@@ -1536,10 +1535,10 @@
                 </svg>
               </div>
               <h4 class="font-bold text-xl text-dark mb-3">
-                High-quality Design
+                Organisez en avance
               </h4>
               <p class="text-body-color mb-8 lg:mb-11">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Préparez votre voyage et prévoyez le retour de votre bagage.
               </p>
               <a
                 href="javascript:void(0)"
@@ -1601,10 +1600,10 @@
                 </svg>
               </div>
               <h4 class="font-bold text-xl text-dark mb-3">
-                All Essential Elements
+                Open Source
               </h4>
               <p class="text-body-color mb-8 lg:mb-11">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Notre solution est open source et transparente.
               </p>
               <a
                 href="javascript:void(0)"
@@ -1675,7 +1674,7 @@
                       mb-6
                     "
                   >
-                    Brilliant Toolkit to Build Nextgen Website Faster.
+                    Description BagAway
                   </h2>
                   <p class="text-base text-body-color mb-9 leading-relaxed">
                     The main ‘thrust' is to focus on educating attendees on how
@@ -1746,7 +1745,7 @@
           <div class="w-full px-4">
             <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
               <span class="font-semibold text-lg text-primary mb-2 block">
-                Pricing Table
+                Prix de la réservation
               </span>
               <h2
                 class="
@@ -1758,7 +1757,7 @@
                   mb-4
                 "
               >
-                Our Pricing Plan
+                Nos Prix
               </h2>
               <p
                 class="
@@ -1776,108 +1775,8 @@
           </div>
         </div>
 
-        <div class="flex flex-wrap items-center justify-center">
-          <div class="w-full md:w-1/2 lg:w-1/3">
-            <div
-              class="
-                bg-white
-                rounded-xl
-                relative
-                z-10
-                overflow-hidden
-                border border-primary border-opacity-20
-                shadow-pricing
-                py-10
-                px-8
-                sm:p-12
-                lg:py-10 lg:px-6
-                xl:p-12
-                mb-10
-                text-center
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".15s
-              "
-            >
-              <span
-                class="text-dark font-medium text-base uppercase block mb-2"
-              >
-                STARTING FROM
-              </span>
-              <h2 class="font-semibold text-primary mb-9 text-[28px]">
-                $ 19.99/mo
-              </h2>
-
-              <div class="mb-10">
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  1 User
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  All UI components
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  Lifetime access
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  Free updates
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  Use on 1 (one) project
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  3 Months support
-                </p>
-              </div>
-              <div class="w-full">
+        <div class="flex flex-wrap items-center justify-center">            
+              <div class="flex flex-wrap items-center justify-center" >
                 <a
                   href="javascript:void(0)"
                   class="
@@ -1897,7 +1796,7 @@
                     ease-in-out
                   "
                 >
-                  Purchase Now
+                  Purchase Nowa 
                 </a>
               </div>
               <span
@@ -1916,7 +1815,7 @@
               </span>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="flex flex-wrap items-center justify-center ">
             <div
               class="
                 bg-primary bg-gradient-to-b
@@ -2008,147 +1907,9 @@
                 >
                   Purchase Now
                 </a>
-              </div>
+ 
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3">
-            <div
-              class="
-                bg-white
-                rounded-xl
-                relative
-                z-10
-                overflow-hidden
-                border border-primary border-opacity-20
-                shadow-pricing
-                py-10
-                px-8
-                sm:p-12
-                lg:py-10 lg:px-6
-                xl:p-12
-                mb-10
-                text-center
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".15s
-              "
-            >
-              <span
-                class="text-dark font-medium text-base uppercase block mb-2"
-              >
-                STARTING FROM
-              </span>
-              <h2 class="font-semibold text-primary mb-9 text-[28px]">
-                $ 70.99/mo
-              </h2>
-
-              <div class="mb-10">
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  1 User
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  All UI components
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  Lifetime access
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  Free updates
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  Use on unlimited project
-                </p>
-                <p
-                  class="
-                    text-base
-                    font-medium
-                    text-body-color
-                    leading-loose
-                    mb-1
-                  "
-                >
-                  4 Months support
-                </p>
-              </div>
-              <div class="w-full">
-                <a
-                  href="javascript:void(0)"
-                  class="
-                    inline-block
-                    text-base
-                    font-medium
-                    text-primary
-                    bg-transparent
-                    border border-[#D4DEFF]
-                    rounded-full
-                    text-center
-                    py-4
-                    px-11
-                    hover:text-white hover:bg-primary hover:border-primary
-                    transition
-                    duration-300
-                    ease-in-out
-                  "
-                >
-                  Purchase Now
-                </a>
-              </div>
-
-              <span
-                class="
-                  absolute
-                  right-0
-                  top-0
-                  z-[-1]
-                  w-14
-                  h-14
-                  rounded-bl-full
-                  block
-                  bg-secondary
-                "
-              >
-              </span>
             </div>
           </div>
         </div>
