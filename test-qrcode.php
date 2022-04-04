@@ -8,13 +8,15 @@
   <?php
   include "conn.php";
   session_start();
+  echo $_SESSION["id"];
+  $id =  $_SESSION["id"];
   //A avoir avec les cookies
   if(isset($_POST['code']))
     {
 
       $code = $_POST['code'];
       // cookies
-      $req = "SELECT `id_reservation` FROM `reservation` WHERE `id_client` = $_SESSION['id'];";
+      $req = "SELECT `id_reservation` FROM `reservation` WHERE `id_client` = $id;";
       $res = $conn->query($req);
       $row = $res->fetch_array();
       $id_reservation = $row[0];

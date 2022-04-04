@@ -2,7 +2,7 @@
 //This is the login page
 session_start();
 include "conn.php";
-
+echo $_SESSION["id"];
 if(!isset($_SESSION["loggedin"]) ){
 	header("location: signup.php");
 	exit;
