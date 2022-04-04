@@ -10,7 +10,7 @@ foreach($_REQUEST as $key => $value)   //Save the received value to the hey vari
     
     if($key =="id")
     {
-        $unit = $value;
+       $id_casier = $value;
     }	
     if($key =="lat"){
 		$lat = $value;
@@ -34,45 +34,23 @@ include("conn.php"); 	//We include the database_connect.php which has the data f
 }
 
 //Now we update the values in database
-
-			if($unit==1)
-			{
-			    mysqli_query($con,"INSERT INTO ESPtable2 (SENT_NUMBER_1,SENT_NUMBER_2,SENT_NUMBER_3,SENT_NUMBER_4,RECEIVED_BOOL1,TEXT_1) VALUES ('$sent_nr_1', '$sent_nr_2', '$sent_nr_3', '$sent_nr_4',0,'Nom')");
+		
+		//udpdate gps
+		//mysqli_query($conn,"INSERT INTO ESPtable2 (SENT_NUMBER_1,SENT_NUMBER_2,SENT_NUMBER_3,SENT_NUMBER_4,RECEIVED_BOOL1,TEXT_1) VALUES ('$sent_nr_1', '$sent_nr_2', '$sent_nr_3', '$sent_nr_4',0,'Nom')");
 		       
-	         $result = mysqli_query($con,"SELECT * FROM ESPtable2 WHERE SENT_NUMBER_1 = $sent_nr_1 AND SENT_NUMBER_2 = $sent_nr_2 AND SENT_NUMBER_3 = $sent_nr_3 AND SENT_NUMBER_4 = $sent_nr_4 ");
-			}
-			else if($unit==2)
-			{
-			     $result = mysqli_query($con,"SELECT * FROM ESPtable2 WHERE SENT_NUMBER_1 = $sent_nr_1 AND SENT_NUMBER_2 = $sent_nr_2 AND SENT_NUMBER_3 = $sent_nr_3 AND SENT_NUMBER_4 = $sent_nr_4 ");
-			    
-			}
+	         $result = mysqli_query($conn,$sql = "SELECT 'Ouverture' FROM 'casier' WHERE 'id_casier' = $id_casier)";
+		
 
 //Loop through the table and filter out data for this unit id equal to the one taht we've received. 
 if($row = mysqli_fetch_array($result)) {
 
 	
-		//We update the values for the boolean and numebers we receive from the Arduino, then we echo the boolean
-		//and numbers and the text from the database back to the Arduino
+		$statut = $row['Ouverture'];	
 		
-		$b1 = $row['RECEIVED_BOOL1'];	
-		$n6 = $row['TEXT_1'];
-		//Next line will echo the data back to the Arduino
-	    if($b1==0)
-		{
-		    mysqli_query($con,"UPDATE ESPtable2 SET RECEIVED_BOOL1 = 1 WHERE SENT_NUMBER_1 = $sent_nr_1 AND SENT_NUMBER_2 = $sent_nr_2 AND SENT_NUMBER_3 = $sent_nr_3 AND SENT_NUMBER_4 = $sent_nr_4");
-		}
-		else
-		{
-		
-		    mysqli_query($con,"UPDATE ESPtable2 SET RECEIVED_BOOL1 = 0 WHERE SENT_NUMBER_1 = $sent_nr_1 AND SENT_NUMBER_2 = $sent_nr_2 AND SENT_NUMBER_3 = $sent_nr_3 AND SENT_NUMBER_4 = $sent_nr_4");
-		    $n6 = "Deconection";
-		}
-    //echo "New record created successfully";
-    echo " b1$b1##n6$n6## ";
-    
+	echo "transmission ok  $statut ";
 }// End of the if*/
 
-echo "transmission ok  $statut ";
+//echo "transmission ok  $statut ";
 ?>
 
 
