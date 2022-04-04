@@ -1,5 +1,5 @@
 <?php //connexion
-include "../conn.php";
+include "conn.php";
 
 if (isset($_POST["email"]))
 {
@@ -20,7 +20,6 @@ if($passwordtocheck==$password)
 echo 'mdp incorrect';
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -167,7 +166,7 @@ echo 'mdp incorrect';
                   <img src="assets/images/logo/logo.png" alt="logo" />
                 </a>
               </div>
-              <form action="main.php" method="post">
+              <form action="signin.php" method="post">
                 <div class="mb-6">
                   <input
                     type="email"

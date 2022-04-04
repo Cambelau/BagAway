@@ -1,8 +1,7 @@
 <?php
-include "../conn.php";
+include "conn.php";
 //inscription
 if (isset($_POST["email"])){
-
 $email = $_POST['email'];
 $password = $_POST['password'];
 $name = $_POST['name'];
@@ -164,7 +163,7 @@ header("Location: /main.php");
                   <img src="assets/images/logo/logo.png" alt="logo" />
                 </a>
               </div>
-              <form action="main.php" method="post">
+              <form action="signup.php" method="post">
                 <div class="mb-6">
                   <input
                     type="text"

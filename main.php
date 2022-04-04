@@ -1,22 +1,3 @@
-<?php
-// include "../conn.php";
-// //inscription
-// if (isset($_POST["email"])){
-
-// $email = $_POST['email'];
-// $password = $_POST['password'];
-// // $fname = $_POST['fname'];
-// // $lname = $_POST['lname'];
-// $fname = "Etienne";
-// $lname = "Lionnet";
-
-// $requete = "INSERT INTO `user` (`id`, `first_name`, `last_name`,`email`, `password`) VALUES (NULL,'$fname','$lname','$email','$password')";
-
-// $conn->query($requete);
-// }
-
-?>
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
   <head>
@@ -485,12 +466,6 @@
       </div>
     </div>
     </div>
-    <!-- ====== ZAK pas touche -->
-    <div> ------QR code test -------
-    <?php //include "test-qrcode.php" ?>
-    </div>
-
-
     <!-- ====== Footer Section Start -->
     <footer
       class="bg-black pt-20 lg:pt-[120px] relative z-10 wow fadeInUp"
