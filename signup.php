@@ -1,5 +1,15 @@
 <?php
+session_start();
+
 include "conn.php";
+
+//redirect to your page account if already loged in
+
+if(isset($_SESSION["loggedin"])){
+	header("location: main.php");
+	exit;
+}
+
 //inscription
 if (isset($_POST["email"])){
 $email = $_POST['email'];
@@ -10,6 +20,7 @@ $requete = "INSERT INTO `user` (`id`, `name`, `phone`,`email`, `password`) VALUE
 try
 {
 $conn->query($requete);
+$_SESSION["loggedin"]=true;
 header("Location: /main.php");
 }catch(Exception $e)
 {

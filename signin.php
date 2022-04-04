@@ -1,5 +1,12 @@
 <?php //connexion
+
+session_start();
 include "conn.php";
+
+if(isset($_SESSION["loggedin"])){
+	header("location: main.php");
+	exit;
+}
 
 if (isset($_POST["email"]))
 {
