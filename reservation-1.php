@@ -37,8 +37,6 @@ try
 }
 
 
-
-
 ?>
 
 <html lang="en" dir="ltr">
@@ -48,8 +46,8 @@ try
   </head>
   <body>
     <h1>Reservation du camion</h1>
-    <form action="reservation-1.php" method="post">
-
+    <form action="test-qrcode.php" method="post">
+        <input type="submit" name="" value="">
     </form>
   </body>
 </html>
