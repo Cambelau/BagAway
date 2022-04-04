@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Play | Free Tailwind CSS Template for Startup and SaaS By TailGrids
+      BagAway
     </title>
     <link
       rel="shortcut icon"
@@ -1677,15 +1677,17 @@
                     Description BagAway
                   </h2>
                   <p class="text-base text-body-color mb-9 leading-relaxed">
-                    The main ‘thrust' is to focus on educating attendees on how
-                    to best protect highly vulnerable business applications with
-                    interactive panel discussions and roundtables led by subject
-                    matter experts.
+                  BagAway est un service qui propose de venir récupérer vos affaires sur place 
+                  et de les garder dans un véhicule privé sécurisé. Ainsi, nous gardons vos affaires
+                   encombrantes (étudiants, touristes) et vous les rendons quand et où vous le désirer.
+                    Le problème abordé est l'encombrement lorsque qu'un individu est à l'extérieur. 
+                    Que ce soit un touriste qui fait des achats ou un étudiant qui sort de cours, 
+                    le challenge est de faciliter leurs activités en désencombrant ce public.
                   </p>
                   <p class="text-base text-body-color mb-9 leading-relaxed">
-                    The main ‘thrust' is to focus on educating attendees on how
-                    to best protect highly vulnerable business applications with
-                    interactive panel.
+                  L'objectif est de créer une plateforme pour créer des rendez-vous entre le client 
+                  et nous pour récupérer des affaires encombrantes et les rendre plus tard. 
+                  Cette plateforme devra s'adapter à une logistique particulière.
                   </p>
                   <a
                     href="javascript:void(0)"
@@ -1768,8 +1770,10 @@
                   text-body-color
                 "
               >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+              Quand un utilisateur commande sur l'application du service de
+              bagagerie, il y a des frais de service qui correspondent au nombre
+              d'heure que le bagage encombrant va être gardé par BagAway , avec
+              pour minimum 3 heures de service .
               </p>
             </div>
           </div>
@@ -1796,7 +1800,7 @@
                     ease-in-out
                   "
                 >
-                  Purchase Nowa 
+                  Réserver maintenant
                 </a>
               </div>
               <span
@@ -1862,28 +1866,26 @@
                 STARTING FROM
               </span>
               <h2 class="font-semibold text-white mb-9 text-[28px]">
-                $ 19.99/mo
+                4€ pour 3h & 2km
               </h2>
 
               <div class="mb-10">
                 <p class="text-base font-medium text-white leading-loose mb-1">
-                  5 User
+                  50*50*50 Box
                 </p>
                 <p class="text-base font-medium text-white leading-loose mb-1">
-                  All UI components
+                  1 € de plus par heure supplémentaire
                 </p>
                 <p class="text-base font-medium text-white leading-loose mb-1">
-                  Lifetime access
+                  0.2 € par km supplémentaire
                 </p>
                 <p class="text-base font-medium text-white leading-loose mb-1">
-                  Free updates
+                  Retour rapide
                 </p>
                 <p class="text-base font-medium text-white leading-loose mb-1">
-                  Use on 1 (one) project
+                  Assurance 
                 </p>
-                <p class="text-base font-medium text-white leading-loose mb-1">
-                  4 Months support
-                </p>
+      
               </div>
               <div class="w-full">
                 <a
@@ -1905,7 +1907,7 @@
                     ease-in-out
                   "
                 >
-                  Purchase Now
+                  Réserver maintenant
                 </a>
  
             </div>
@@ -1917,900 +1919,7 @@
     </section>
     <!-- ====== Pricing Section End -->
 
-    <!-- ====== Faq Section Start -->
-    <section
-      class="
-        bg-[#f3f4ff]
-        pt-20
-        lg:pt-[120px]
-        pb-12
-        lg:pb-[90px]
-        relative
-        z-20
-        overflow-hidden
-      "
-    >
-      <div class="container">
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full px-4">
-            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
-              <span class="font-semibold text-lg text-primary mb-2 block">
-                FAQ
-              </span>
-              <h2
-                class="
-                  font-bold
-                  text-3xl
-                  sm:text-4xl
-                  md:text-[42px]
-                  text-dark
-                  mb-4
-                "
-              >
-                Any Questions? Answered
-              </h2>
-              <p
-                class="
-                  text-lg
-                  sm:text-xl
-                  leading-relaxed
-                  sm:leading-relaxed
-                  text-body-color
-                "
-              >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full lg:w-1/2 px-4">
-            <div
-              class="
-                single-faq
-                w-full
-                bg-white
-                border border-[#F3F4FE]
-                rounded-lg
-                p-5
-                sm:p-8
-                mb-8
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".1s
-              "
-            >
-              <button class="faq-btn flex items-center w-full text-left">
-                <div
-                  class="
-                    w-full
-                    max-w-[40px]
-                    h-10
-                    flex
-                    items-center
-                    justify-center
-                    rounded-lg
-                    bg-primary
-                    text-primary
-                    bg-opacity-5
-                    mr-5
-                  "
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="fill-current icon"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base sm:text-lg font-semibold text-black">
-                    How to use TailGrids?
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content pl-[62px] hidden">
-                <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                single-faq
-                w-full
-                bg-white
-                border border-[#F3F4FE]
-                rounded-lg
-                p-5
-                sm:p-8
-                mb-8
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".15s
-              "
-            >
-              <button class="faq-btn flex items-center w-full text-left">
-                <div
-                  class="
-                    w-full
-                    max-w-[40px]
-                    h-10
-                    flex
-                    items-center
-                    justify-center
-                    rounded-lg
-                    bg-primary
-                    text-primary
-                    bg-opacity-5
-                    mr-5
-                  "
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="fill-current icon"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base sm:text-lg font-semibold text-black">
-                    How to download icons from LineIcons?
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content pl-[62px] hidden">
-                <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                single-faq
-                w-full
-                bg-white
-                border border-[#F3F4FE]
-                rounded-lg
-                p-5
-                sm:p-8
-                mb-8
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".2s
-              "
-            >
-              <button class="faq-btn flex items-center w-full text-left">
-                <div
-                  class="
-                    w-full
-                    max-w-[40px]
-                    h-10
-                    flex
-                    items-center
-                    justify-center
-                    rounded-lg
-                    bg-primary
-                    text-primary
-                    bg-opacity-5
-                    mr-5
-                  "
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="fill-current icon"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base sm:text-lg font-semibold text-black">
-                    Is GrayGrids part of UIdeck?
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content pl-[62px] hidden">
-                <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full lg:w-1/2 px-4">
-            <div
-              class="
-                single-faq
-                w-full
-                bg-white
-                border border-[#F3F4FE]
-                rounded-lg
-                p-5
-                sm:p-8
-                mb-8
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".1s
-              "
-            >
-              <button class="faq-btn flex items-center w-full text-left">
-                <div
-                  class="
-                    w-full
-                    max-w-[40px]
-                    h-10
-                    flex
-                    items-center
-                    justify-center
-                    rounded-lg
-                    bg-primary
-                    text-primary
-                    bg-opacity-5
-                    mr-5
-                  "
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="fill-current icon"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base sm:text-lg font-semibold text-black">
-                    Can I use this template for commercial project?
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content pl-[62px] hidden">
-                <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                single-faq
-                w-full
-                bg-white
-                border border-[#F3F4FE]
-                rounded-lg
-                p-5
-                sm:p-8
-                mb-8
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".15s
-              "
-            >
-              <button class="faq-btn flex items-center w-full text-left">
-                <div
-                  class="
-                    w-full
-                    max-w-[40px]
-                    h-10
-                    flex
-                    items-center
-                    justify-center
-                    rounded-lg
-                    bg-primary
-                    text-primary
-                    bg-opacity-5
-                    mr-5
-                  "
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="fill-current icon"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base sm:text-lg font-semibold text-black">
-                    Do you have plan to releasing Play Pro?
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content pl-[62px] hidden">
-                <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                single-faq
-                w-full
-                bg-white
-                border border-[#F3F4FE]
-                rounded-lg
-                p-5
-                sm:p-8
-                mb-8
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".2s
-              "
-            >
-              <button class="faq-btn flex items-center w-full text-left">
-                <div
-                  class="
-                    w-full
-                    max-w-[40px]
-                    h-10
-                    flex
-                    items-center
-                    justify-center
-                    rounded-lg
-                    bg-primary
-                    text-primary
-                    bg-opacity-5
-                    mr-5
-                  "
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="fill-current icon"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base sm:text-lg font-semibold text-black">
-                    Where and how to host this template?
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content pl-[62px] hidden">
-                <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="absolute bottom-0 right-0 z-[-1]">
-        <svg
-          width="1440"
-          height="886"
-          viewBox="0 0 1440 886"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            opacity="0.5"
-            d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
-            fill="url(#paint0_linear)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear"
-              x1="1308.65"
-              y1="1142.58"
-              x2="602.827"
-              y2="-418.681"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#3056D3" stop-opacity="0.36" />
-              <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
-              <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
-            </linearGradient>
-          </defs>
-        </svg>
-      </div>
-    </section>
-    <!-- ====== Faq Section End -->
-
-    <!-- ====== Testimonials Start ====== -->
-    <section id="testimonials" class="pt-20 md:pt-[120px]">
-      <div class="container px-4">
-        <div class="flex flex-wrap">
-          <div class="w-full mx-4">
-            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
-              <span class="font-semibold text-lg text-primary mb-2 block">
-                Testimonials
-              </span>
-              <h2
-                class="
-                  font-bold
-                  text-3xl
-                  sm:text-4xl
-                  md:text-[42px]
-                  text-dark
-                  mb-4
-                "
-              >
-                What our Client Say
-              </h2>
-              <p
-                class="
-                  text-lg
-                  sm:text-xl
-                  leading-relaxed
-                  sm:leading-relaxed
-                  text-body-color
-                "
-              >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-wrap">
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-            <div
-              class="
-                ud-single-testimonial
-                p-8
-                bg-white
-                mb-12
-                shadow-testimonial
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".1s
-              "
-            >
-              <div class="ud-testimonial-ratings flex items-center mb-3">
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div class="ud-testimonial-content mb-6">
-                <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="
-                    ud-testimonial-image
-                    w-[50px]
-                    h-[50px]
-                    rounded-full
-                    overflow-hidden
-                    mr-5
-                  "
-                >
-                  <img
-                    src="assets/images/testimonials/author-01.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">Sabo Masties</h4>
-                  <p class="text-[#969696] text-xs">Founder @ Rolex</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-            <div
-              class="
-                ud-single-testimonial
-                p-8
-                bg-white
-                mb-12
-                shadow-testimonial
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".15s
-              "
-            >
-              <div class="ud-testimonial-ratings flex items-center mb-3">
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div class="ud-testimonial-content mb-6">
-                <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="
-                    ud-testimonial-image
-                    w-[50px]
-                    h-[50px]
-                    rounded-full
-                    overflow-hidden
-                    mr-5
-                  "
-                >
-                  <img
-                    src="assets/images/testimonials/author-02.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">Margin Gesmu</h4>
-                  <p class="text-[#969696] text-xs">Founder @ UI Hunter</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-            <div
-              class="
-                ud-single-testimonial
-                p-8
-                bg-white
-                mb-12
-                shadow-testimonial
-                wow
-                fadeInUp
-              "
-              data-wow-delay=".2s
-              "
-            >
-              <div class="ud-testimonial-ratings flex items-center mb-3">
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-                <span class="text-[#fbb040] mr-1">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div class="ud-testimonial-content mb-6">
-                <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="
-                    ud-testimonial-image
-                    w-[50px]
-                    h-[50px]
-                    rounded-full
-                    overflow-hidden
-                    mr-5
-                  "
-                >
-                  <img
-                    src="assets/images/testimonials/author-03.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">William Smith</h4>
-                  <p class="text-[#969696] text-xs">Founder @ Trorex</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-full mx-4">
-            <div class="wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-title mb-8">
-                <h6
-                  class="
-                    text-xs
-                    font-normal
-                    text-body-color
-                    relative
-                    inline-flex
-                    items-center
-                  "
-                >
-                  Some Of Our Clients
-                  <span class="w-8 h-[1px] inline-block bg-[#afb2b5] ml-4">
-                  </span>
-                </h6>
-              </div>
-              <div class="ud-brands-logo flex items-center flex-wrap">
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://tailgrids.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/tailgrids.svg"
-                      alt="tailgrids"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://ayroui.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/ayroui.svg"
-                      alt="ayroui"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://uideck.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/uideck.svg"
-                      alt="uideck"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://graygrids.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/graygrids.svg"
-                      alt="graygrids"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://lineicons.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/lineicons.svg"
-                      alt="lineicons"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Team Section Start -->
     <section id="team" class="pt-20 lg:pt-[120px] pb-10 lg:pb-20">
@@ -2819,7 +1928,7 @@
           <div class="w-full px-4">
             <div class="text-center mx-auto mb-[60px] max-w-[620px]">
               <span class="font-semibold text-lg text-primary mb-2 block">
-                Our Team
+                Notre équipe
               </span>
               <h2
                 class="
@@ -2831,7 +1940,7 @@
                   mb-4
                 "
               >
-                Meet Our Team
+                Qui nous sommes ?
               </h2>
               <p
                 class="
@@ -2842,8 +1951,7 @@
                   text-body-color
                 "
               >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Equipe d'étudiants Ece motivés pour changer le monde du tourisme et la mobilité urbaine.
               </p>
             </div>
           </div>
@@ -2864,7 +1972,7 @@
                 "
               >
                 <img
-                  src="assets/images/team/team-01.png"
+                  src="assets/images/team/team-01.jpeg"
                   alt="image"
                   class="w-full rounded-full"
                 />
@@ -3287,7 +2395,7 @@
               </div>
               <div class="text-center">
                 <h4 class="font-medium text-lg text-dark mb-2">
-                  Adveen Desuza
+                  Zakaria Tozy
                 </h4>
                 <p class="font-medium text-sm text-body-color mb-5">
                   UI Designer
@@ -3389,7 +2497,7 @@
                 "
               >
                 <img
-                  src="assets/images/team/team-02.png"
+                  src="assets/images/team/team-02.jpeg"
                   alt="image"
                   class="w-full rounded-full"
                 />
@@ -3811,7 +2919,7 @@
                 </span>
               </div>
               <div class="text-center">
-                <h4 class="font-medium text-lg text-dark mb-2">Jezmin uniya</h4>
+                <h4 class="font-medium text-lg text-dark mb-2">Tom Siennickii</h4>
                 <p class="font-medium text-sm text-body-color mb-5">
                   Product Designer
                 </p>
@@ -3912,7 +3020,7 @@
                 "
               >
                 <img
-                  src="assets/images/team/team-03.png"
+                  src="assets/images/team/team-03.jpeg"
                   alt="image"
                   class="w-full rounded-full"
                 />
@@ -4335,7 +3443,7 @@
               </div>
               <div class="text-center">
                 <h4 class="font-medium text-lg text-dark mb-2">
-                  Andrieo Gloree
+                  Matthieu Sajot
                 </h4>
                 <p class="font-medium text-sm text-body-color mb-5">
                   App Developer
@@ -4437,7 +3545,7 @@
                 "
               >
                 <img
-                  src="assets/images/team/team-01.png"
+                  src="assets/images/team/alex.jpeg"
                   alt="image"
                   class="w-full rounded-full"
                 />
@@ -4858,9 +3966,11 @@
                   </svg>
                 </span>
               </div>
+              
               <div class="text-center">
+
                 <h4 class="font-medium text-lg text-dark mb-2">
-                  Jackie Sanders
+                  Alexandre De Oliveira Baptista
                 </h4>
                 <p class="font-medium text-sm text-body-color mb-5">
                   Content Writer
