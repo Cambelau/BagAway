@@ -7,13 +7,19 @@
 <body>
   <?php
   include "conn.php";
+  session_start();
   //A avoir avec les cookies
   if(isset($_POST['code']))
     {
 
       $code = $_POST['code'];
       // cookies
-      $id_reservation = 30;
+      $req = "SELECT `id_reservation` FROM `reservation` WHERE `id_client` = $_SESSION['id'];";
+      $res = $conn->query($req);
+      $row = $res->fetch_array();
+      $id_reservation = $row[0];
+
+      $_SESSION['id_reservation']=$id_reservation;
 
       //Cherche un casier de libre
       $req = "SELECT `code_casier`,`id_casier` FROM `reservation` WHERE `id_reservation` = $id_reservation;";

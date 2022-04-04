@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <?php //connexion
 include "conn.php";
+session_start();
 
 //A avoir avec les cookies
-$id_client = 1;
+$id_client = $_SESSION["id"];
 
 try
 {
@@ -14,22 +15,19 @@ try
   $row = $res->fetch_array();
   $id_casier = $row[0];
   $code = $row[1];
-  echo $code."+".$id_casier;
 
   if(isset($id_casier))
   {
     //On cree une nouvelle reservation
-    echo "string";
+    $_SESSION["id_casier"] = $id_casier;
+
     $sql = "INSERT INTO `reservation`(`id_client`, `id_casier`, `statut`,`code_casier`) VALUES ($id_client,$id_casier,1,\"".$code."\");";
     echo $sql;
     $res = $conn->query($sql);
-    echo "string";
 
     //On change le statut du casier
     $sql = "UPDATE `casier` SET `statut` = 1 WHERE `casier`.`id_casier` = $id_casier;";
     $res = $conn->query($sql);
-
-
     header("Location: /test-qrcode.php");
   }else
   {
