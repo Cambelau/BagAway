@@ -2,40 +2,44 @@
 <?php //connexion
 include "conn.php";
 
-$nbrbag = $_POST['nbrbag'];
-$type = $_POST['type'];
-$data = $_POST['date'];
 //A avoir avec les cookies
 $id_client = 1;
 
 try
 {
   //Cherche un casier de libre
-  $req = "SELECT `id_casier` FROM `casier` WHERE `statut` = 0 LIMIT 1;";
+  $req = "SELECT `id_casier`,`code` FROM `casier` WHERE `statut` = 0 LIMIT 1;";
   $res = $conn->query($req);
 
-  $id_casier = $res->fetch_array()[0];
+  $row = $res->fetch_array();
+  $id_casier = $row[0];
+  $code = $row[1];
+  echo $code."+".$id_casier;
 
   if(isset($id_casier))
   {
     //On cree une nouvelle reservation
-    $sql = "INSERT INTO `reservation`(`id_client`, `id_casier`, `statut`) VALUES ($id_client,$id_casier,1);";
+    echo "string";
+    $sql = "INSERT INTO `reservation`(`id_client`, `id_casier`, `statut`,`code_casier`) VALUES ($id_client,$id_casier,1,\"".$code."\");";
+    echo $sql;
     $res = $conn->query($sql);
+    echo "string";
 
     //On change le statut du casier
     $sql = "UPDATE `casier` SET `statut` = 1 WHERE `casier`.`id_casier` = $id_casier;";
     $res = $conn->query($sql);
+
+
+    header("Location: /test-qrcode.php");
   }else
   {
     echo "Aucun casiers de libre";
   }
 
-
 }catch(Exception $e)
 {
 
 }
-
 
 ?>
 
@@ -46,7 +50,8 @@ try
   </head>
   <body>
     <h1>Reservation du camion</h1>
-    <form action="test-qrcode.php" method="post">
+    <form action="reservation-1.php" method="post">
+      confirme la reservation
         <input type="submit" name="" value="">
     </form>
   </body>
