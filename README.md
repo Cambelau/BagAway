@@ -1,4 +1,4 @@
-<img src = "asset/images/logo.png" width = 500 alt ="vagrant ssh">
+<img src = "assets/images/logo/logo.png" width = 500 alt ="vagrant ssh">
 
 # Bagaway - VPE ECE 2022
 
