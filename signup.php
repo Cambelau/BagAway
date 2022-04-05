@@ -5,8 +5,8 @@ include "conn.php";
 
 //redirect to your page account if already loged in
 
-if(isset($_SESSION["loggedin"])){
-	header("location: main.php");
+if(isset($_SESSION["id"])){
+	header("location: /main.php");
 	exit;
 }
 
@@ -20,7 +20,19 @@ $requete = "INSERT INTO `user` (`id`, `name`, `phone`,`email`, `password`) VALUE
 try
 {
 $conn->query($requete);
-$_SESSION["loggedin"]=true;
+
+$requeteId = "SELECT `id` from `user` WHERE name = '$name';";
+$res = $conn->query($requeteId);
+
+$row = $res->fetch_array();
+$id = $row[0];
+
+$_SESSION["id"]=$id;
+$_SESSION["name"]=htmlspecialchars($_POST["name"]);
+$_SESSION["phonenbr"]=htmlspecialchars($_POST["phonenbr"]);
+$_SESSION["email"]=htmlspecialchars($_POST["email"]);
+
+
 header("Location: /main.php");
 }catch(Exception $e)
 {
@@ -28,6 +40,7 @@ header("Location: /main.php");
 }
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">

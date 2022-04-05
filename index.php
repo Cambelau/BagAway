@@ -76,7 +76,7 @@
               <ul class="flex flex-wrap items-center justify-center mb-10">
                 <li>
                   <a
-                    href="https://links.tailgrids.com/play-download"
+                    href="http://localhost/main.php"
                     class="
                       py-4
                       px-6

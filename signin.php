@@ -3,7 +3,7 @@
 session_start();
 include "conn.php";
 
-if(isset($_SESSION["loggedin"])){
+if(isset($_SESSION["id"])){
 	header("location: main.php");
 	exit;
 }
@@ -17,8 +17,19 @@ try
 {
 $res = $conn->query("SELECT password FROM user WHERE email = '$email'");
 $passwordtocheck = $res->fetch_array()[0];
-if($passwordtocheck==$password)
-   header("Location: /main.php");
+if($passwordtocheck==$password){
+
+  $requeteId = "SELECT `id` from `user` WHERE email = '$email';";
+  $res = $conn->query($requeteId);
+
+  $row = $res->fetch_array();
+  $id = $row[0];
+
+  $_SESSION["id"]=$id;
+  header("Location: /main.php");
+
+
+}
 
 }catch(Exception $e)
 {

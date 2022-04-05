@@ -5,7 +5,7 @@ session_start();
 
 //A avoir avec les cookies
 $id_client = $_SESSION["id"];
-echo $_SESSION["id"];
+
 try
 {
   //Cherche un casier de libre
@@ -22,13 +22,13 @@ try
     $_SESSION["id_casier"] = $id_casier;
 
     $sql = "INSERT INTO `reservation`(`id_client`, `id_casier`, `statut`,`code_casier`) VALUES ($id_client,$id_casier,1,\"".$code."\");";
-    echo $sql;
+    // echo $sql;
     $res = $conn->query($sql);
 
     //On change le statut du casier
     $sql = "UPDATE `casier` SET `statut` = 1 WHERE `casier`.`id_casier` = $id_casier;";
     $res = $conn->query($sql);
-    // header("Location: /test-qrcode.php");
+    header("Location: /test-qrcode.php");
   }else
   {
     echo "Aucun casiers de libre";

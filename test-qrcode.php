@@ -8,7 +8,6 @@
   <?php
   include "conn.php";
   session_start();
-  echo $_SESSION["id"];
   $id =  $_SESSION["id"];
   //A avoir avec les cookies
   if(isset($_POST['code']))
