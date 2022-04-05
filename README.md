@@ -1,5 +1,6 @@
+<p align="center">
 <img src = "assets/images/logo/logo.png" width = 500 alt ="vagrant ssh">
-
+</p>
 # Bagaway - VPE ECE 2022
 
 BagAway est un service open source qui propose de venir récupérer vos affaires sur place et de les garder​dans un véhicule privé sécurisé. Nous gardons vos affaires encombrantes (étudiants, touristes)​et vous les rendons quand et où vous le désirer. Service sous la forme d’une application qui se​base sur un algorithme d’optimisation de déplacement.
