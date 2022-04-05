@@ -2,36 +2,10 @@
 session_start();
 include "conn.php";
 $id =  $_SESSION["id"];
-//A avoir avec les cookies
-// if(isset($_POST['code']))
-//   {
-//     $code = $_POST['code'];
-//     // cookies
-//     $req = "SELECT `id_reservation` FROM `reservation` WHERE `id_client` = $id;";
-//     $res = $conn->query($req);
-//     $row = $res->fetch_array();
-//     $id_reservation = $row[0];
-//     $_SESSION['id_reservation']=$id_reservation;
-//
-//     //Cherche un casier de libre
-//     $req = "SELECT `code_casier`,`id_casier` FROM `reservation` WHERE `id_reservation` = $id_reservation;";
-//     $res = $conn->query($req);
-//     $row = $res->fetch_array();
-//     $codetocheck = $row[0];
-//     $id_casier = $row[1];
-//
-//     if($code==$codetocheck)
-//     {
-//     $sql = "UPDATE `casier` SET `Ouverture`= 1 WHERE `id_casier`= $id_casier;";
-//     $res = $conn->query($sql);
-//
-//     echo "<script>alert(\"Code Bon\")</script>";
-//
-//     }else
-//     {
-//      echo "<script>alert(\"Mauvais Casier\")</script>";
-//     }
-//   }
+$id_casier =  $_SESSION['casier'];
+$req = "SELECT * FROM `casier` WHERE `id_casier` = $id_casier;";
+$res = $conn->query($req);
+$row = $res->fetch_array();
 ?>
 <html>
 <head>
@@ -40,11 +14,13 @@ $id =  $_SESSION["id"];
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
+    <h3>Casier : <?php echo $row[0]; ?></h3>
+    <h3>Localisation : <?php echo $row[1];?></h3>
     <div id="qr-reader" style="width:500px"></div>
     <div id="qr-reader-results"></div>
-    <form  id="myForm" action="test-qrcode.php" method="post">
-        <input id="code" name="code" value="" />
-    </form>
+    <form action="main.php">
+    <button id="retour" type="submit" name="button" hidden>Revenir au menu</button>
+    <form>
 </body>
 <script src="https://unpkg.com/html5-qrcode"></script>
 <script src="/html5-qrcode.min.js"></script>
@@ -70,15 +46,18 @@ $id =  $_SESSION["id"];
              var code = <?php echo json_encode($_SESSION['code']).";";?>
              if(code == decodedText)
              {
-               alert("yes");
+               <?php $sql = "UPDATE `casier` SET `Ouverture`= 1 WHERE `id_casier`= $id_casier;";
+               $res = $conn->query($sql);
+               echo 'alert("Cassier déverouiller");';
+               ?>
+               $("#retour").show();
+
              }else {
                alert("non");
              }
         }
-
         var html5QrcodeScanner = new Html5QrcodeScanner(
             "qr-reader", { fps: 10, qrbox: 250 });
-
         html5QrcodeScanner.render(onScanSuccess);
     });
 </script>

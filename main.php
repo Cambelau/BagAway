@@ -96,6 +96,9 @@ if(!isset($_SESSION["id"]) ){
     <form class="" action="reservation.php" method="post">
       <button type="submit" name="button">Reserver un camion</button>
     </form>
+		<form class="" action="recup.php" method="post">
+      <button type="submit" name="button">Récupérer votre casier</button>
+    </form>
     <i class="lni lni-car-alt"></i>
             </div>
           </div>

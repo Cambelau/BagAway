@@ -18,6 +18,7 @@ try
   $id_casier = $row[0];
   $code = $row[1];
   $_SESSION['code'] = $code;
+  $_SESSION['casier'] = $id_casier;
 
   if(isset($id_casier))
   {
