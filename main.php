@@ -16,15 +16,16 @@ if(!isset($_SESSION["id"]) ){
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./map.js"></script>
     <title>
       BagAway - Main Page
     </title>
     <link
       rel="shortcut icon"
       href="assets/images/favicon.png"
-      type="image/x-icon"
+      type="image/x-icon"s
     />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/tailwind.css" />
@@ -82,7 +83,7 @@ if(!isset($_SESSION["id"]) ){
                   max-w-[600px]
                 "
               >
-                Insérer la page google maps
+
               </p>
               <h3>My Google Maps Demo</h3>
     <!--The div element for the map -->
@@ -90,7 +91,7 @@ if(!isset($_SESSION["id"]) ){
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2dm869yOJpPPLNSOZeirYr06nlb_IgO4&callback=initMap&libraries=&v=weekly"
       async
     ></script>
     <form class="" action="reservation.php" method="post">
