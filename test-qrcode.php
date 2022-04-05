@@ -1,3 +1,38 @@
+<?php
+session_start();
+include "conn.php";
+$id =  $_SESSION["id"];
+//A avoir avec les cookies
+// if(isset($_POST['code']))
+//   {
+//     $code = $_POST['code'];
+//     // cookies
+//     $req = "SELECT `id_reservation` FROM `reservation` WHERE `id_client` = $id;";
+//     $res = $conn->query($req);
+//     $row = $res->fetch_array();
+//     $id_reservation = $row[0];
+//     $_SESSION['id_reservation']=$id_reservation;
+//
+//     //Cherche un casier de libre
+//     $req = "SELECT `code_casier`,`id_casier` FROM `reservation` WHERE `id_reservation` = $id_reservation;";
+//     $res = $conn->query($req);
+//     $row = $res->fetch_array();
+//     $codetocheck = $row[0];
+//     $id_casier = $row[1];
+//
+//     if($code==$codetocheck)
+//     {
+//     $sql = "UPDATE `casier` SET `Ouverture`= 1 WHERE `id_casier`= $id_casier;";
+//     $res = $conn->query($sql);
+//
+//     echo "<script>alert(\"Code Bon\")</script>";
+//
+//     }else
+//     {
+//      echo "<script>alert(\"Mauvais Casier\")</script>";
+//     }
+//   }
+?>
 <html>
 <head>
     <title>Qr code</title>
@@ -5,44 +40,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-  <?php
-  include "conn.php";
-  session_start();
-  $id =  $_SESSION["id"];
-  //A avoir avec les cookies
-  if(isset($_POST['code']))
-    {
-
-      $code = $_POST['code'];
-      // cookies
-      $req = "SELECT `id_reservation` FROM `reservation` WHERE `id_client` = $id;";
-      $res = $conn->query($req);
-      $row = $res->fetch_array();
-      $id_reservation = $row[0];
-
-      $_SESSION['id_reservation']=$id_reservation;
-
-      //Cherche un casier de libre
-      $req = "SELECT `code_casier`,`id_casier` FROM `reservation` WHERE `id_reservation` = $id_reservation;";
-      $res = $conn->query($req);
-      $row = $res->fetch_array();
-      $codetocheck = $row[0];
-      $id_casier = $row[1];
-
-
-      if($code==$codetocheck)
-      {
-      $sql = "UPDATE `casier` SET `Ouverture`= 1 WHERE `id_casier`= $id_casier;";
-      $res = $conn->query($sql);
-
-      echo "<script>alert(\"Code Bon\")</script>";
-
-      }else
-      {
-       echo "<script>alert(\"Mauvais Casier\")</script>";
-      }
-    }
-  ?>
     <div id="qr-reader" style="width:500px"></div>
     <div id="qr-reader-results"></div>
     <form  id="myForm" action="test-qrcode.php" method="post">
@@ -69,9 +66,14 @@
         var lastResult, countResults = 0;
         function onScanSuccess(decodedText, decodedResult) {
 
-             alert(decodedText);
-             $("#code").val(decodedText);
-             $("#myForm").submit()
+             //$("#code").val(decodedText);
+             var code = <?php echo json_encode($_SESSION['code']).";";?>
+             if(code == decodedText)
+             {
+               alert("yes");
+             }else {
+               alert("non");
+             }
         }
 
         var html5QrcodeScanner = new Html5QrcodeScanner(

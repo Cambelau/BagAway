@@ -17,22 +17,20 @@ try
   $row = $res->fetch_array();
   $id_casier = $row[0];
   $code = $row[1];
+  $_SESSION['code'] = $code;
 
   if(isset($id_casier))
   {
     //On cree une nouvelle reservation
     $_SESSION["id_casier"] = $id_casier;
-    echo "SESSSION : ".$_SESSION["id"];
-    echo "ID : ". $id_client;
 
     $sql = "INSERT INTO `reservation`(`id_client`, `id_casier`, `statut`,`code_casier`) VALUES ($id_client,$id_casier,1,\"".$code."\");";
-    echo $sql;
+
     $res = $conn->query($sql);
 
     //On change le statut du casier
     $sql = "UPDATE `casier` SET `statut` = 1 WHERE `casier`.`id_casier` = $id_casier;";
     $res = $conn->query($sql);
-    echo $sql;
 
     header("Location: /test-qrcode.php");
     ob_end_flush();
@@ -56,8 +54,8 @@ try
   </head>
   <body>
     <h1>Reservation du camion</h1>
-    <form action="reservation-1.php" method="post">
-      confirme la reservation
+    <form action="test-qrcode.php" method="post">
+        confirme la reservation
         <input type="submit" name="" value="">
     </form>
   </body>

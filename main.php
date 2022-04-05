@@ -2,11 +2,64 @@
 //This is the login page
 session_start();
 include "conn.php";
-
-if(!isset($_SESSION["id"]) ){
+echo $_SESSION["id"];
+if(!isset($_SESSION["loggedin"]) ){
 	header("location: signup.php");
 	exit;
 }
+
+if(isset($_POST["name"])){
+
+  $sql = "SELECT id FROM user WHERE name = ?";
+  if($stmt = mysqli_prepare($conn, $sql)){
+    mysqli_stmt_bind_param($stmt, "s", $param_username);
+
+    $param_username = $_POST["name"];
+    if(mysqli_stmt_execute($stmt)){
+
+      mysqli_stmt_store_result($stmt);
+
+      if(mysqli_stmt_num_rows($stmt) == 1){
+
+        mysqli_stmt_bind_result($stmt, $id);
+
+        if(mysqli_stmt_fetch($stmt)){
+          $_SESSION["id"]=$id;
+          $_SESSION["name"]=htmlspecialchars($_POST["name"]);
+          $_SESSION["phonenbr"]=htmlspecialchars($_POST["phonenbr"]);
+          $_SESSION["email"]=htmlspecialchars($_POST["email"]);
+        }
+      }
+    }
+  }
+}
+
+if(isset($_POST["password"])){
+
+  $sql = "SELECT id, name, phone FROM user WHERE email = ?";
+  if($stmt = mysqli_prepare($conn, $sql)){
+    mysqli_stmt_bind_param($stmt, "s", $param_email);
+
+    $param_email = $_POST["email"];
+    if(mysqli_stmt_execute($stmt)){
+
+      mysqli_stmt_store_result($stmt);
+
+      if(mysqli_stmt_num_rows($stmt) == 1){
+
+        mysqli_stmt_bind_result($stmt, $id,$name,$phone);
+
+        if(mysqli_stmt_fetch($stmt)){
+          $_SESSION["id"]=$id;
+          $_SESSION["name"]=$name;
+          $_SESSION["phonenbr"]=$phone;
+          $_SESSION["email"]=htmlspecialchars($_POST["email"]);
+        }
+      }
+    }
+  }
+}
+echo  $_SESSION["id"];
 
 ?>
 
