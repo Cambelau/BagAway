@@ -29,15 +29,17 @@
       $codetocheck = $row[0];
       $id_casier = $row[1];
 
-      echo $code."-".$codetocheck;
+
       if($code==$codetocheck)
       {
       $sql = "UPDATE `casier` SET `Ouverture`= 1 WHERE `id_casier`= $id_casier;";
-      echo $sql;
       $res = $conn->query($sql);
+
+      echo "<script>alert(\"Code Bon\")</script>";
+
       }else
       {
-        echo "Veillez reesayer";
+       echo "<script>alert(\"Mauvais Casier\")</script>";
       }
     }
   ?>

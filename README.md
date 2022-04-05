@@ -6,7 +6,7 @@
 
 BagAway est un service open source qui propose de venir récupérer vos affaires sur place et de les garder​dans un véhicule privé sécurisé. Nous gardons vos affaires encombrantes (étudiants, touristes)​et vous les rendons quand et où vous le désirer. Service sous la forme d’une application qui se​base sur un algorithme d’optimisation de déplacement.
 
-## Membre de l'equipe 
+## Membre de l'equipe :
 
 Zakaria Tozy <br>
 email : Zakaria.tozy@edu.ece.fr <br>
@@ -40,13 +40,13 @@ Notre méthodologie consiste à développer un site web qui permet aux utilisate
 D’autre part pour la partie hardware nous avons programmé un Esp32(LILYGO® TTGO) qui nous permet à la fois de récupérer la position du casier et de transmettre les informations utiles au PHP. Nous avons également utilisé l’IDE Arduino et le langage C pour coder L’esp.​
 
 <p align="center">
-<img src = "assets/images/logo/methode.png" width = 200 alt ="Methode schema">
+<img src = "assets/images/logo/methode.png" width = 500 alt ="Methode schema">
 </p>
 
-### 3. Shema du circuit
+### 3. Schema du circuit
 
 <p align="center">
-<img src = "assets/images/logo/circuit.png" width = 350 alt ="Methode schema">
+<img src = "assets/images/logo/circuit.png" width = 500 alt ="Methode schema">
 </p>
 
 ### 4. Build Docker image of your application
