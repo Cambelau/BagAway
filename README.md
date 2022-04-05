@@ -1,7 +1,7 @@
 <p align="center">
 <img src = "assets/images/logo/logo.png" width = 500 alt ="vagrant ssh">
 </p>
-# Bagaway - VPE ECE 2022
+## Bagaway - VPE ECE 2022
 
 BagAway est un service open source qui propose de venir récupérer vos affaires sur place et de les garder​dans un véhicule privé sécurisé. Nous gardons vos affaires encombrantes (étudiants, touristes)​et vous les rendons quand et où vous le désirer. Service sous la forme d’une application qui se​base sur un algorithme d’optimisation de déplacement.
 
@@ -38,48 +38,11 @@ Notre méthodologie consiste à développer un site web qui permet aux utilisate
 
 D’autre part pour la partie hardware nous avons programmé un Esp32(LILYGO® TTGO) qui nous permet à la fois de récupérer la position du casier et de transmettre les informations utiles au PHP. Nous avons également utilisé l’IDE Arduino et le langage C pour coder L’esp.​
 
+<img src = "assets/images/logo/methode.png" width = 500 alt ="Methode schema">
 
-### 3. Configure and provision a virtual environment and run your application using the IaC approach
+### 3. Shema du circuit 
 
-- Vagrant is an open-source software product for building and maintaining portable virtual software development environments.We use vagrant with the centos7 distribution of linux,to configure the linux environment we use the following command.<br>
-
-```
-vagrant box add centos/7
-```
-- we chose the option 3 : virtual box.<br>
-
-- Now we can run our vagrant configuration file using : <br>
-```
-vagrant up
-```
-<img src = "images/vagrantup.png" width = 500 alt ="vagrant up">
-
-- Now we can acces to our virtual machine using ssh : <br>
-```
-vagrant ssh devops_server
-```
-<img src = "images/ssh.png" width = 500 alt ="vagrant ssh">
-
-- Ansible is an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code.<br>
-
-- In our Vagrantfile,we configurate provision with Ansible
-
-```
-# Use Vagrant Ansible provisioner
-config.vm.provision "ansible_local" do |ansible|
-  # The path to the playbooks entry point
-  ansible.playbook = "playbooks/run.yml"
-  # Only run the roles with these tags
-  ansible.tags = "install"
-end
-```
-We try to do the provision of <br>
-- language runtime
-- database
-- your application (use sync folders)
-- health check of your application
-
-But sadly, we didn't success !
+<img src = "assets/images/logo/schema.png" width = 500 alt ="schema">
 
 ### 4. Build Docker image of your application
 - Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.<br>
