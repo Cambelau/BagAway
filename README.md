@@ -28,25 +28,13 @@ email : Arthur.Auffray@edu.ece.fr <br>
 ### 1. Objectif : 
 L'objectif est de créer une plateforme open source pour gerer des reservations entre le client et notre service pour récupérer des affaires encombrantes et les rendre plus tard. Cette plateforme devra s'adapter à une logistique particulière.
 
-<img src = "images/githubaction.png" width = 500 alt ="github-action">
 
-### 2. 
+### 2. Methode :  
 
-We want to implement Continuous integration and Continuous Delivery so :<br>
-- For the Continuous integration We implemented a main.yaml file which allows us to configure github action.Github action will perform tests at each push or pull request on the main branch <br>
+Notre méthodologie consiste à développer un site web qui permet aux utilisateurs de réserver un casier et de visualiser les déplacement de leurs affaires. Cette partie est développée en PHP et SQL pour le backend en s’appuyant sur les logiciels MySQL et WAMP. Pour le front nous avons utilisé html ccs et Bootstrap.​
 
-<img src = "images/githubaction.png" width = 500 alt ="github-action">
+D’autre part pour la partie hardware nous avons programmé un Esp32(LILYGO® TTGO) qui nous permet à la fois de récupérer la position du casier et de transmettre les informations utiles au PHP. Nous avons également utilisé l’IDE Arduino et le langage C pour coder L’esp.​
 
-- For the Continuous Delivery, We used Heroku : https://dashboard.heroku.com.
-We configurated our workflows to deploy our application in heroku after the Continuous Testing.<br>
-
-<img src = "images/CI-CD.png" width = 500 align="center" alt ="CI-CD">
-
-- In heroku, we created an application and this is the dashboard
-<img src = "images/HerokuDashboard.png" width = 500 alt ="herokuDashboard">
-
-If we go on Heroku we got a link and we can see our application.
-<img src = "images/HerokuDeployement.png" width = 500 alt ="heroku deployment">
 
 ### 3. Configure and provision a virtual environment and run your application using the IaC approach
 
