@@ -115,6 +115,48 @@
               </li>
               <li class="relative group">
                 <a
+                  href="http://localhost/signup.php"
+                  class="
+                    ud-menu-scroll
+                    text-base text-dark
+                    lg:text-white
+                    lg:group-hover:opacity-70
+                    lg:group-hover:text-white
+                    group-hover:text-primary
+                    py-2
+                    lg:py-6 lg:inline-flex lg:px-0
+                    flex
+                    mx-8
+                    lg:mr-0 lg:ml-7
+                    xl:ml-12
+                  "
+                >
+                  Sign Up
+                </a>
+              </li>
+              <li class="relative group">
+                <a
+                  href="http://localhost/signin.php"
+                  class="
+                    ud-menu-scroll
+                    text-base text-dark
+                    lg:text-white
+                    lg:group-hover:opacity-70
+                    lg:group-hover:text-white
+                    group-hover:text-primary
+                    py-2
+                    lg:py-6 lg:inline-flex lg:px-0
+                    flex
+                    mx-8
+                    lg:mr-0 lg:ml-7
+                    xl:ml-12
+                  "
+                >
+                  Sign In
+                </a>
+              </li>
+              <li class="relative group">
+                <a
                   href="/#pricing"
                   class="
                     ud-menu-scroll

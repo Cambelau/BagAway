@@ -99,7 +99,7 @@
                 </li>
                 <li>
                   <a
-                    href="https://github.com/tailgrids/play-tailwind"
+                    href="http://localhost/main.php"
                     target="_blank"
                     class="
                       text-base
