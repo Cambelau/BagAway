@@ -115,7 +115,7 @@
               </li>
               <li class="relative group">
                 <a
-                  href="/signup.php"
+                  href="signup.php"
                   class="
                     ud-menu-scroll
                     text-base text-dark
@@ -136,7 +136,7 @@
               </li>
               <li class="relative group">
                 <a
-                  href="/signin.php"
+                  href="signin.php"
                   class="
                     ud-menu-scroll
                     text-base text-dark

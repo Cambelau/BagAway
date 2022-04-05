@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <?php //connexion
-include "conn.php";
 session_start();
+include "conn.php";
 
 //A avoir avec les cookies
 $id_client = $_SESSION["id"];
@@ -40,6 +39,7 @@ try
 }
 
 ?>
+<!DOCTYPE html>
 
 <html lang="en" dir="ltr">
   <head>
