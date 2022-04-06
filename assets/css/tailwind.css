@@ -647,6 +647,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.25rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .-mx-3{
   margin-left: -0.75rem;
   margin-right: -0.75rem;
@@ -828,6 +833,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-14{
   height: 3.5rem;
+}
+
+.h-max{
+  height: 100%;
 }
 
 .h-\[1px\]{

@@ -37,15 +37,15 @@ if(!isset($_SESSION["id"]) ){
     </script>
   </head>
   <body>
-  <?php include 'header.php'?>
+  <?php include 'headerConnected.php'?>
 
     <div
       id="home"
       class="relative pt-[120px] md:pt-[130px] lg:pt-[160px] bg-primary"
     >
     <div class="container">
-        <div class="flex flex-wrap items-center -mx-4">
-          <div class="w-full px-4">
+        <div class="flex flex-wrap items-center -mx-4 ">
+          <div class="w-full px-4 ">
             <div
               class="
                 hero-content
@@ -84,23 +84,50 @@ if(!isset($_SESSION["id"]) ){
                 "
               >
 
-              </p>
-              <h3>My Google Maps Demo</h3>
+            </p>
+            <h3>My Google Maps Demo</h3>
+            <i class="lni lni-car-alt"></i>
+
     <!--The div element for the map -->
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script
+    <!-- <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2dm869yOJpPPLNSOZeirYr06nlb_IgO4&callback=initMap&libraries=&v=weekly"
       async
-    ></script>
-    <form class="" action="reservation.php" method="post">
-      <button type="submit" name="button">Reserver un camion</button>
+    ></script> -->
+    <form  action="reservation.php" method="post">
+    <button class="
+              mb-5
+              mt-12
+              text-base
+              font-medium
+              text-white
+              bg-white bg-opacity-20
+              rounded-lg
+              py-3
+              px-6
+              hover:bg-opacity-100 hover:text-dark
+              signUpBtn
+              duration-300
+              ease-in-out" 
+              type="submit" name="button">Réserver mon casier</button>
     </form>
 		<form class="" action="recup.php" method="post">
-      <button type="submit" name="button">Récupérer votre casier</button>
+      <button  class="font-medium
+              text-white
+              mb-5
+              bg-white bg-opacity-20
+              rounded-lg
+              my-4
+              py-3
+              px-6
+              hover:bg-opacity-100 hover:text-dark
+              signUpBtn
+              duration-300
+              ease-in-out"
+              type="submit" name="button">Récupérer mon bagage</button>
     </form>
-    <i class="lni lni-car-alt"></i>
             </div>
           </div>
         </div>

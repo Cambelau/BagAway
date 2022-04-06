@@ -18,26 +18,63 @@ try
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Reservation</title>
+<head>
+<meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    BagAway - Qr code
+  </title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+  <!-- ==== WOW JS ==== -->
+  <script src="assets/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  </head>
-  <body>
-    <h1>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+  <script src="/html5-qrcode.min.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body class="bg-primary">
+
+<?php include 'headerConnected.php'?>
+<div id="home" class="relative pt-[120px] md:pt-[130px] lg:pt-[160px] bg-primary ">
+    <div class="flex flex-wrap items-center -mx-4 ">
+    <div class="w-full   px-4">
+    <div class="
+                hero-content
+                text-center
+                mx-auto
+                h-max
+                wow
+                max-w-full
+                fadeInUp">
+
+    <h2 class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[40px]
+                  text-dark
+                  mb-8
+                ">
       <?php
       if(isset($row[0]))
       {
-        echo "Votre reservation en cours : ";
+        echo "Ma réservation en cours : ";
         echo "<script>$('#si').show()</script>";
       }
       else
       {
-        echo "Aucun reservation en cours";
+        echo "Aucun réservation en cours";
         echo "<script>$('#si').hide()</script>";
       }
       ?>
-    </h1>
+    </h2>
     <div id="si">
       <?php
         $req = "SELECT * FROM `casier` WHERE `id_casier` = $row[2];";
@@ -50,17 +87,34 @@ try
         $id_casier = $row[0];
         ?>
       </h3>
-        <button onclick="dev()"> Déverouiller le casier </button>
+        <button  class="font-medium
+              text-white
+              mb-5
+              bg-white bg-opacity-20
+              rounded-lg
+              my-4
+              py-3
+              px-6
+              hover:bg-opacity-100 hover:text-dark
+              signUpBtn
+              duration-300
+              ease-in-out" onclick="dev()"> Déverouiller mon casier </button>
     </div>
   </div>
-    <body>
-        <div id="qr-reader" style="width:500px"></div>
-        <div id="qr-reader-results"></div>
-    </body>
-  </body>
-  <script src="https://unpkg.com/html5-qrcode"></script>
-  <script src="/html5-qrcode.min.js"></script>
-  <script src="jquery-3.6.0.min.js"></script>
+    <div>
+      <div id="qr-reader" style="width:500px"></div>
+      <div id="qr-reader-results"></div>
+    </div>
+    </div>
+    </div>
+
+            </div>
+    </div>
+</body>
+
+
+
+  
   <script>
   function dev()
   {
@@ -99,7 +153,7 @@ try
 
 
                 ?>
-                 alert("Cassier déverouiller");
+                 alert("Casier déverouillé");
 
 
                }else {
@@ -113,6 +167,4 @@ try
           html5QrcodeScanner.render(onScanSuccess);
       });
   </script>
-  </head>
-  </html>
 </html>
