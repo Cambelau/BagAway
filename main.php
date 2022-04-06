@@ -18,7 +18,7 @@ if(!isset($_SESSION["id"]) ){
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" contents="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="./map.js"></script>
+
     <title>
       BagAway - Main Page
     </title>
@@ -32,6 +32,8 @@ if(!isset($_SESSION["id"]) ){
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
     <!-- ==== WOW JS ==== -->
     <script src="assets/js/wow.min.js"></script>
+				<script src="./map.js"></script>
+				<script type='text/javascript' src='config.js'></script>
     <script>
       new WOW().init();
     </script>
@@ -91,7 +93,7 @@ if(!isset($_SESSION["id"]) ){
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2dm869yOJpPPLNSOZeirYr06nlb_IgO4&callback=initMap&libraries=&v=weekly"
+      src= ' https://maps.googleapis.com/maps/api/js?key= ' + key + '&callback=initMap&libraries=&v=weekly'
       async
     ></script>
     <form class="" action="reservation.php" method="post">

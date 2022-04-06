@@ -37,7 +37,6 @@ function initMap() {
       origin: myPos,
       destination: camPos,
       travelMode: google.maps.TravelMode.DRIVING,
-      suppressMarkers: true
 
     })
     .then((response) => {
