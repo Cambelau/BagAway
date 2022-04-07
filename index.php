@@ -76,7 +76,7 @@
               <ul class="flex flex-wrap items-center justify-center mb-10">
                 <li>
                   <a
-                    href="http://localhost/main.php"
+                    href="main.php"
                     class="
                       py-4
                       px-6
@@ -99,7 +99,7 @@
                 </li>
                 <li>
                   <a
-                    href="http://localhost/main.php"
+                    href="main.php"
                     target="_blank"
                     class="
                       text-base
@@ -2395,7 +2395,7 @@
               </div>
               <div class="text-center">
                 <h4 class="font-medium text-lg text-dark mb-2">
-                  Etienne Lionnet
+                  Zakaria Tozy
                 </h4>
                 <p class="font-medium text-sm text-body-color mb-5">
                   IT Respo
@@ -2920,7 +2920,7 @@
               </div>
               <div class="text-center">
                 <h4 class="font-medium text-lg text-dark mb-2">
-                  Zakaria Tozy
+                  Etienne Lionnet
                 </h4>
                 <p class="font-medium text-sm text-body-color mb-5">
                   UI Designer
