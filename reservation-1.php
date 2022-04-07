@@ -37,7 +37,7 @@ try
     ob_end_flush();
   }else
   {
-    echo "Aucun casiers de libre";
+    echo "Aucun casier de libre";
   }
 
 }catch(Exception $e)
@@ -60,4 +60,6 @@ try
         <input type="submit" name="" value="">
     </form>
   </body>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 </html>

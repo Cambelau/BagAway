@@ -70,7 +70,7 @@ try
       }
       else
       {
-        echo "Aucun réservation en cours";
+        echo "Aucune réservation en cours";
         echo "<script>$('#si').hide()</script>";
       }
       ?>
