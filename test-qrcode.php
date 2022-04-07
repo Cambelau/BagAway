@@ -6,6 +6,17 @@ $id_casier =  $_SESSION['casier'];
 $req = "SELECT * FROM `casier` WHERE `id_casier` = $id_casier;";
 $res = $conn->query($req);
 $row = $res->fetch_array();
+$ouverture = "UPDATE `casier` SET `Ouverture`= 1 WHERE `id_casier`= $id_casier;";
+$cmp=0;
+
+if(isset($_POST['ouverture']))
+{
+  if($_POST['ouverture']==1)
+    $conn->query($ouverture);
+}
+echo $_POST['ouverture'];
+
+
 ?>
 
 
@@ -85,8 +96,8 @@ $row = $res->fetch_array();
             </div>
             <div id="qr-reader-results">
                 </div>
-                
-                <form action="main.php">
+
+              <form action="main.php">
                 <button class="
               mb-5
               mt-12
@@ -101,15 +112,35 @@ $row = $res->fetch_array();
               signUpBtn
               duration-300
               ease-in-out"  id="retour" type="submit" name="button" hidden>Revenir au menu</button>
-              <form>
-                  </div>
+            </form>
+              </div>
             </div>
+
+            <form id="formId" action="test-qrcode.php" method="post">
+              <input type="hidden" id="ouvert" name="ouverture"  value="xm234jq">
+              <input type="submit" hidden>
+            </form>
     </div>
 </body>
 
 
-
 <script>
+
+
+      var check ;
+      <?php
+      if(isset($_POST["ouverture"]))
+        echo "check =".$_POST["ouverture"]."\n";
+      else {
+        echo "check = 0 \n";
+      }
+
+      ?>
+      if(check == 1)
+      {
+        $("#retour").show();
+        $("#qr-reader").hide();
+      }
 
     function docReady(fn) {
         // see if DOM is already available
@@ -127,22 +158,21 @@ $row = $res->fetch_array();
         function onScanSuccess(decodedText, decodedResult) {
 
              //$("#code").val(decodedText);
-             var code = <?php echo json_encode($_SESSION['code']).";";?>
+             var code = <?php echo json_encode($_SESSION["code"]).";";?>
              if(code == decodedText)
              {
-               <?php $sql = "UPDATE `casier` SET `Ouverture`= 1 WHERE `id_casier`= $id_casier;";
-               $res = $conn->query($sql);
-               echo 'alert("Cassier déverouiller");';
-               ?>
-               $("#retour").show();
+               $("#ouvert").val(1);
+               $("#formId").submit()
 
              }else {
                alert("non");
              }
+
         }
         var html5QrcodeScanner = new Html5QrcodeScanner(
             "qr-reader", { fps: 10, qrbox: 250 });
         html5QrcodeScanner.render(onScanSuccess);
     });
+
 </script>
 </html>
