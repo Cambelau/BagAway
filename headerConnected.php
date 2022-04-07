@@ -174,7 +174,7 @@
                     xl:ml-12
                   "
                 >
-                  Réserver
+                  Reservation
                 </a>
               </li>
               

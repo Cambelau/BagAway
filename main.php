@@ -90,8 +90,7 @@ if(!isset($_SESSION["id"]) ){
             </p>
             <h3>My Google Maps Demo</h3>
             <i class="lni lni-car-alt"></i>
-     
-  
+       
                 <div class="map-container
                 hero-content
                 text-center
