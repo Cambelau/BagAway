@@ -29,6 +29,8 @@ $row = $res->fetch_array();
     new WOW().init();
   </script>
 </head>
+  <!-- ==== qr part ==== -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://unpkg.com/html5-qrcode"></script>
 <script src="/html5-qrcode.min.js"></script>

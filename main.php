@@ -35,6 +35,9 @@ if(!isset($_SESSION["id"]) ){
     <script>
       new WOW().init();
     </script>
+    <!-- MAP API -->
+    <script type='text/javascript' src='config.js'></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   </head>
   <body>
   <?php include 'headerConnected.php'?>
@@ -87,13 +90,22 @@ if(!isset($_SESSION["id"]) ){
             </p>
             <h3>My Google Maps Demo</h3>
             <i class="lni lni-car-alt"></i>
+     
+  
+                <div class="map-container
+                hero-content
+                text-center
+                max-w-[780px]
+                mx-auto
+                wow
+                fadeInUp">
+                    <div class="map" id="map"></div>
+                </div>
 
-    <!--The div element for the map -->
-    <div id="map"></div>
-
+    
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <!-- <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2dm869yOJpPPLNSOZeirYr06nlb_IgO4&callback=initMap&libraries=&v=weekly"
+      src = "https://maps.googleapis.com/maps/api/js?key=" + key + "&callback=initMap&v=weekly"
       async
     ></script> -->
     <form  action="reservation.php" method="post">

@@ -2561,3 +2561,45 @@ body {
     font-size: 40px;
   }
 }
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+}
+.map-container:before, .map-container:after, .map:before, .map:after {
+  position: absolute;
+  display: block;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  content: '';
+  z-index: 5;
+}
+.map-container:before {
+  top: -5px;
+  left: 0;
+  right: 0;
+  height: 5px;
+}
+.map-container:after {
+  right: -5px;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+}
+.map:before{
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 5px;
+}
+.map:after{
+  left: -5px;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+}
+#map {
+  width: inherit;
+  height: inherit;
+}
