@@ -92,9 +92,10 @@ if(!isset($_SESSION["id"]) ){
             <i class="lni lni-car-alt"></i>
        
                 <div class="map-container
+                container
                 hero-content
                 text-center
-                max-w-[780px]
+                max-w-full
                 mx-auto
                 wow
                 fadeInUp">

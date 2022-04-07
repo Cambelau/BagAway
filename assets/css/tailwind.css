@@ -478,9 +478,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 16px;
 }
 
+@media (min-width: 140px){
+  .container{
+    max-width: 540px;
+  }
+  .map-container{
+    width: 80px;
+    height: 40px;
+  }
+}
 @media (min-width: 540px){
   .container{
     max-width: 540px;
+  }
+  .map-container{
+    width: 200px;
+    height: 100px;
   }
 }
 
