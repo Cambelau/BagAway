@@ -1,6 +1,6 @@
 var config = {
   MY_API_TOKEN : '12345',
-  SECRET_API_KEY : 'AIzaSyC2dm869yOJpPPLNSOZeirYr06nlb_IgO4',
+  SECRET_API_KEY : '',
 }
 
 var token = config.MY_API_TOKEN;
